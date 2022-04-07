@@ -1,0 +1,1024 @@
+{
+  "version": "1.1.3",
+  "rss": "https://westeroscraft.com/articles/index.rss",
+  "servers": [
+    {
+      "id": "StealLife-1.12.2",
+      "name": "StealLife (Forge 1.12.2)",
+      "description": "StealLife, One Hearth, No Probelm !",
+      "icon": "https://cdn.discordapp.com/attachments/955529733779619880/955529899941183518/Steal_Life_Logo_2022.png",
+      "version": "1.0.4",
+      "address": "game1.librahost.fr:25575",
+      "minecraftVersion": "1.12.2",
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2859:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4466108,
+            "MD5": "fda01cd3cae80c2c6348ac3fc26e0af8",
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2859/forge-1.12.2-14.23.5.2859-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2859",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 12345,
+                "MD5": "1959bb357e54a9666dd80d744b524639",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/versions/1.12.2-forge-14.23.5.2859/1.12.2-forge-14.23.5.2859.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "org.dimdev:vanillafix:1.0.10-150@jar",
+          "name": "VanillaFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1025896,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/5A__VanillaFix-1.0.10-150.jar",
+            "MD5": "a74aaab68100e03f54e35d1007d50169"
+          }
+        },
+        {
+          "id": "me.hypherionmc.simplerpc:simple-rpc:2.7.2@jar",
+          "name": "Simple RPC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1125013,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/aaa__simple-rpc-1.12.2-2.7.2.jar",
+            "MD5": "503b7c1ea69bf20a4fc66616aedb7797"
+          }
+        },
+        {
+          "id": "lumien.custombackgrounds:custombackgrounds:1.1.1@jar",
+          "name": "Custom Backgrounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4140,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/CustomBackgrounds-MC1.12-1.1.1.jar",
+            "MD5": "b0f20b60bba201bbcf63a6d18cd191db"
+          }
+        },
+        {
+          "id": "alexiil.mc.mod.load:customloadingscreen:1.12.2-1.5.6@jar",
+          "name": "Custom Loading Screen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 976969,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/CustomLoadingScreen-1.12.2-1.5.6.jar",
+            "MD5": "8f6acbade05a1d5a4bc4a1a0cda7b675"
+          }
+        },
+        {
+          "id": "lumien.custommainmenu:custommainmenu:2.0.9.1@jar",
+          "name": "Custom Main Menu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91121,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+            "MD5": "c12200ad89f9399d5bdcbe9da7900bb9"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.12@jar",
+          "name": "CustomNPCs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9911871,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/CustomNPCs_1.12.2-(05Jul20).jar",
+            "MD5": "3ab1a5c4b069d574631da5bc1880ebf7"
+          }
+        },
+        {
+          "id": "chylex.customwindowtitle:customwindowtitle:1.0.0@jar",
+          "name": "Custom Window Title",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10105,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/CustomWindowTitle-Legacy-v1.0.0.jar",
+            "MD5": "c9c6c35a93de385bc97e610bb2f8bbdd"
+          }
+        },
+        {
+          "id": "com.mia:props:2.6.3.7_1.12.2@jar",
+          "name": "Decocraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16976718,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/Decocraft-2.6.3.7_1.12.2.jar",
+            "MD5": "083cf0c798ebfd6065c2db0af0419c12"
+          }
+        },
+        {
+          "id": "com.kreezcraft:desiredservers:1.12.2-1.0.1@jar",
+          "name": "Desired Servers`",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4623,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/desiredservers-1.12.2-1.0.1.jar",
+            "MD5": "ea1293d77c462e007cca333f0a256107"
+          }
+        },
+        {
+          "id": "de.erdbeerbaerlp.iconmod:Icon Argument Re-Implementation:1.0@jar",
+          "name": "Iconmod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11341,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/iconmod-1.0.jar",
+            "MD5": "2c7567af1daeda94a26e72a18cf6a533"
+          }
+        },
+        {
+          "id": "mekanism:mekanism:1.12.2-9.8.3.390@jar",
+          "name": "Mekanism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7863657,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/Mekanism-1.12.2-9.8.3.390.jar",
+            "MD5": "e622b8365b9a1190b3b6cc042854e870"
+          }
+        },
+        {
+          "id": "com.cookie130:moarores:1.0.0@jar",
+          "name": "MoarOres",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 190321,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/Moarores-1.1.1.jar",
+            "MD5": "a5be8f6186151ada8c335f7267f6ad7e"
+          }
+        },
+        {
+          "id": "goblinbob.mobends.standard.main:mobends:1.2.1@jar",
+          "name": "Mo' Bends",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 770595,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/optionalon/MoBends_1.12.2-1.2.1-19.12.21.jar",
+            "MD5": "c4079332690a3cfda665740573415c0c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
+          "name": "OptiFine 1.12.2_HD_U_G5",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2457427,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/optionalon/OptiFine_1.12.2_HD_U_G5_MOD.jar",
+            "MD5": "1a4c89616a633242a54c1e01c57ec694"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.fuzs:pickupnotifier:1.1.5@jar",
+          "name": "Pick Up Notifier",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 43418,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/optionalon/PickUpNotifier-v1.1.5-1.12.2.jar",
+            "MD5": "f539635c2ae9bd4f3d42133b414b1ced"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.mia.craftstudio.minecraft:ptrmodellib:1.0.5@jar",
+          "name": "Ptrmodellib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 169749,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/PTRLib-1.0.5.jar",
+            "MD5": "7376e09acb5d531d28cb4d28a7f190fd"
+          }
+        },
+        {
+          "id": "kenijey.realrender:realrender:1.2.3@jar",
+          "name": "First Person Render",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9745,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/optionaloff/realrender-1.2.3.jar",
+            "MD5": "f1fe321294b03dd8fb176eb996432141"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "technicianlp.reauth:reauth:3.6.0@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30446,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/optionalon/reauth-3.6.0.jar",
+            "MD5": "6024686e40df10b8739042ea2dce7f1a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "lumien.resourceloader:resourceloader:1.5.3@jar",
+          "name": "Resource Loader",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16612,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/ResourceLoader-MC1.12.1-1.5.3.jar",
+            "MD5": "51141e882f96ce756b9b3d25f2acdf57"
+          }
+        },
+        {
+          "id": "sereneseasons.core:sereneseasons:1.2.18@jar",
+          "name": "Serene Seasons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 185187,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/SereneSeasons-1.12.2-1.2.18-universal.jar",
+            "MD5": "ef89fab62d1914ea0e25d2c31b453695"
+          }
+        },
+        {
+          "id": "twilightforest:twilightforest:3.11.1021@jar",
+          "name": "The Twilight Forest",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 28721862,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/twilightforest-1.12.2-3.11.1021-universal.jar",
+            "MD5": "0933760943721154f3208782306f04d6"
+          }
+        },
+        {
+          "id": "net.gliby.voicechat:gvc:1.2.5@jar",
+          "name": "Gliby's Voice Chat Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 423682,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/Voice+Chat+Reloaded-1.2.5.jar",
+            "MD5": "13344fa9ab436f944f354fb8687306d8"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:4.1.0@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 178994,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/forgemods/required/Waystones_1.12.2-4.1.0.jar",
+            "MD5": "5159122949ffb79b80a341135673e8f8"
+          }
+        },
+        {
+          "id": "mainmenu.json",
+          "name": "mainmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 4674,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/config/CustomMainMenu/mainmenu.json",
+            "MD5": "cec4a9c8d04758817fab351cd0122bac",
+            "path": "config/CustomMainMenu/mainmenu.json"
+          }
+        },
+        {
+          "id": "Desiredservers.json",
+          "name": "Desiredservers.json",
+          "type": "File",
+          "artifact": {
+            "size": 101,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/config/DesiredServers/Desiredservers.json",
+            "MD5": "c4aa64def83e67e32be5520fb50d8285",
+            "path": "config/DesiredServers/Desiredservers.json"
+          }
+        },
+        {
+          "id": "custombackgrounds.cfg",
+          "name": "custombackgrounds.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 252,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/config/custombackgrounds.cfg",
+            "MD5": "c2fc0655292df2048160a015c4912b1f",
+            "path": "config/custombackgrounds.cfg"
+          }
+        },
+        {
+          "id": "default.json",
+          "name": "default.json",
+          "type": "File",
+          "artifact": {
+            "size": 5639,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/config/customloadingscreen/default.json",
+            "MD5": "40dd0b3ccd4797cbe680f63883dbe514",
+            "path": "config/customloadingscreen/default.json"
+          }
+        },
+        {
+          "id": "example.json",
+          "name": "example.json",
+          "type": "File",
+          "artifact": {
+            "size": 3962,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/config/customloadingscreen/example.json",
+            "MD5": "dc536068f41598e08c7e2ce4967a5eb4",
+            "path": "config/customloadingscreen/example.json"
+          }
+        },
+        {
+          "id": "customloadingscreen.cfg",
+          "name": "customloadingscreen.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1039,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/config/customloadingscreen.cfg",
+            "MD5": "b45d05618458f81bae80c4735c04d97a",
+            "path": "config/customloadingscreen.cfg"
+          }
+        },
+        {
+          "id": "customloadingscreen_timings.nbt",
+          "name": "customloadingscreen_timings.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 220,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/config/customloadingscreen_timings.nbt",
+            "MD5": "af06e1acca91bfb2f4c7c91a014ff078",
+            "path": "config/customloadingscreen_timings.nbt"
+          }
+        },
+        {
+          "id": "customloadingscreen_tips.txt",
+          "name": "customloadingscreen_tips.txt",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/config/customloadingscreen_tips.txt",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/customloadingscreen_tips.txt"
+          }
+        },
+        {
+          "id": "customwindowtitle-client.toml",
+          "name": "customwindowtitle-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 49,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/config/customwindowtitle-client.toml",
+            "MD5": "2ab9e16076427184f5f02f1e56319f51",
+            "path": "config/customwindowtitle-client.toml"
+          }
+        },
+        {
+          "id": "forge.cfg",
+          "name": "forge.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3955,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/config/forge.cfg",
+            "MD5": "bee77d51b82699b95bf5c02788f654fb",
+            "path": "config/forge.cfg"
+          }
+        },
+        {
+          "id": "forgeChunkLoading.cfg",
+          "name": "forgeChunkLoading.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 2206,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/config/forgeChunkLoading.cfg",
+            "MD5": "95ba05ef01861ee260b40c95e9cc5aec",
+            "path": "config/forgeChunkLoading.cfg"
+          }
+        },
+        {
+          "id": "ftbutilities.cfg",
+          "name": "ftbutilities.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 5875,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/config/ftbutilities.cfg",
+            "MD5": "9ce088fc045c7e10012614991d67db8b",
+            "path": "config/ftbutilities.cfg"
+          }
+        },
+        {
+          "id": "quark.cfg",
+          "name": "quark.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 109438,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/config/quark.cfg",
+            "MD5": "34cafe9a0aeeb95009225070f71965cd",
+            "path": "config/quark.cfg"
+          }
+        },
+        {
+          "id": "simple-rpc.toml",
+          "name": "simple-rpc.toml",
+          "type": "File",
+          "artifact": {
+            "size": 7692,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/config/simple-rpc.toml",
+            "MD5": "e089d4bcbfaf392ecef66ffb6b2cb5f9",
+            "path": "config/simple-rpc.toml"
+          }
+        },
+        {
+          "id": "splash.properties",
+          "name": "splash.properties",
+          "type": "File",
+          "artifact": {
+            "size": 375,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/config/splash.properties",
+            "MD5": "c54815687e2e2da70dc6e9e1f25f6fba",
+            "path": "config/splash.properties"
+          }
+        },
+        {
+          "id": "background1.png",
+          "name": "background1.png",
+          "type": "File",
+          "artifact": {
+            "size": 459212,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/backgrounds/background1.png",
+            "MD5": "d406af78566730f2442fe203ef689201",
+            "path": "resources/backgrounds/background1.png"
+          }
+        },
+        {
+          "id": "background10.png",
+          "name": "background10.png",
+          "type": "File",
+          "artifact": {
+            "size": 5217539,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/backgrounds/background10.png",
+            "MD5": "c1a57775e069f430dfe7869a465a63f4",
+            "path": "resources/backgrounds/background10.png"
+          }
+        },
+        {
+          "id": "background11.jpg",
+          "name": "background11.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 116280,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/backgrounds/background11.jpg",
+            "MD5": "5678697109601da42583df2ace6203dd",
+            "path": "resources/backgrounds/background11.jpg"
+          }
+        },
+        {
+          "id": "background12.jpg",
+          "name": "background12.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 434638,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/backgrounds/background12.jpg",
+            "MD5": "3abe09e6a92b9291fe61d45e54572292",
+            "path": "resources/backgrounds/background12.jpg"
+          }
+        },
+        {
+          "id": "background13.png",
+          "name": "background13.png",
+          "type": "File",
+          "artifact": {
+            "size": 1617661,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/backgrounds/background13.png",
+            "MD5": "b3944c7e20a05f6f097acb2cdc37df2d",
+            "path": "resources/backgrounds/background13.png"
+          }
+        },
+        {
+          "id": "background2.jpg",
+          "name": "background2.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 103211,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/backgrounds/background2.jpg",
+            "MD5": "e39b8433f97ba956df945ed789c95bac",
+            "path": "resources/backgrounds/background2.jpg"
+          }
+        },
+        {
+          "id": "background3.png",
+          "name": "background3.png",
+          "type": "File",
+          "artifact": {
+            "size": 2613150,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/backgrounds/background3.png",
+            "MD5": "1517b2e0f3e6fb45b8f3dc7e8f96fb27",
+            "path": "resources/backgrounds/background3.png"
+          }
+        },
+        {
+          "id": "background4.png",
+          "name": "background4.png",
+          "type": "File",
+          "artifact": {
+            "size": 7414474,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/backgrounds/background4.png",
+            "MD5": "fd779f7cf412c49ddca3ab7f1c8f043e",
+            "path": "resources/backgrounds/background4.png"
+          }
+        },
+        {
+          "id": "background5.jpg",
+          "name": "background5.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 220516,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/backgrounds/background5.jpg",
+            "MD5": "7d605e55f179a85e13e56c0f6e042526",
+            "path": "resources/backgrounds/background5.jpg"
+          }
+        },
+        {
+          "id": "background6.png",
+          "name": "background6.png",
+          "type": "File",
+          "artifact": {
+            "size": 2984232,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/backgrounds/background6.png",
+            "MD5": "fd6b9c6e6e12f87b53d8cca39ce8b814",
+            "path": "resources/backgrounds/background6.png"
+          }
+        },
+        {
+          "id": "background7.png",
+          "name": "background7.png",
+          "type": "File",
+          "artifact": {
+            "size": 1445220,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/backgrounds/background7.png",
+            "MD5": "20fbbe0b42dca8c330c1687096eb317b",
+            "path": "resources/backgrounds/background7.png"
+          }
+        },
+        {
+          "id": "background8.png",
+          "name": "background8.png",
+          "type": "File",
+          "artifact": {
+            "size": 3116559,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/backgrounds/background8.png",
+            "MD5": "914dd2d334726eb5d1eda346715d4579",
+            "path": "resources/backgrounds/background8.png"
+          }
+        },
+        {
+          "id": "background9.png",
+          "name": "background9.png",
+          "type": "File",
+          "artifact": {
+            "size": 1678189,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/backgrounds/background9.png",
+            "MD5": "1f4c2e6fca5c922c3bdbe99e3781bd92",
+            "path": "resources/backgrounds/background9.png"
+          }
+        },
+        {
+          "id": "Deepslate_Tiles.png",
+          "name": "Deepslate_Tiles.png",
+          "type": "File",
+          "artifact": {
+            "size": 2012,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/blocks/Deepslate_Tiles.png",
+            "MD5": "8cae0e68b1a74e4fa3cf58cd5cae6bf8",
+            "path": "resources/blocks/Deepslate_Tiles.png"
+          }
+        },
+        {
+          "id": "Gray_Concrete.png",
+          "name": "Gray_Concrete.png",
+          "type": "File",
+          "artifact": {
+            "size": 288,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/blocks/Gray_Concrete.png",
+            "MD5": "e6fcfa2316e08b420e1e47ea65a91f5e",
+            "path": "resources/blocks/Gray_Concrete.png"
+          }
+        },
+        {
+          "id": "Gray_Terracotta.png",
+          "name": "Gray_Terracotta.png",
+          "type": "File",
+          "artifact": {
+            "size": 766,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/blocks/Gray_Terracotta.png",
+            "MD5": "8de4e452d04d2e0c3f1203e6092ff80c",
+            "path": "resources/blocks/Gray_Terracotta.png"
+          }
+        },
+        {
+          "id": "Polished_Blackstone.png",
+          "name": "Polished_Blackstone.png",
+          "type": "File",
+          "artifact": {
+            "size": 3602,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/blocks/Polished_Blackstone.png",
+            "MD5": "c4865842381fa9972c98e98484ebbeb9",
+            "path": "resources/blocks/Polished_Blackstone.png"
+          }
+        },
+        {
+          "id": "bars.png",
+          "name": "bars.png",
+          "type": "File",
+          "artifact": {
+            "size": 3453,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/steallife/bars.png",
+            "MD5": "7bef439d0225ed2ee3cbd9c82c04b2be",
+            "path": "resources/steallife/bars.png"
+          }
+        },
+        {
+          "id": "buttonx.png",
+          "name": "buttonx.png",
+          "type": "File",
+          "artifact": {
+            "size": 16634,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/steallife/buttonx.png",
+            "MD5": "2df6975870e64ba2e6f9ae2466181026",
+            "path": "resources/steallife/buttonx.png"
+          }
+        },
+        {
+          "id": "discord.png",
+          "name": "discord.png",
+          "type": "File",
+          "artifact": {
+            "size": 35489,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/steallife/discord.png",
+            "MD5": "677b3e59c22e1e3a18245b6c70a6bda4",
+            "path": "resources/steallife/discord.png"
+          }
+        },
+        {
+          "id": "earth.png",
+          "name": "earth.png",
+          "type": "File",
+          "artifact": {
+            "size": 30827,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/steallife/earth.png",
+            "MD5": "75215400947b09abf721a9df46978a36",
+            "path": "resources/steallife/earth.png"
+          }
+        },
+        {
+          "id": "exit.png",
+          "name": "exit.png",
+          "type": "File",
+          "artifact": {
+            "size": 17724,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/steallife/exit.png",
+            "MD5": "365b6445fdc2afa7f84f63a20b481114",
+            "path": "resources/steallife/exit.png"
+          }
+        },
+        {
+          "id": "forgeminecraftlogo.png",
+          "name": "forgeminecraftlogo.png",
+          "type": "File",
+          "artifact": {
+            "size": 226469,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/steallife/forgeminecraftlogo.png",
+            "MD5": "3b9df930c2c995e79edd101bdc522595",
+            "path": "resources/steallife/forgeminecraftlogo.png"
+          }
+        },
+        {
+          "id": "logo.png",
+          "name": "logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 197043,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/steallife/logo.png",
+            "MD5": "aeffd4f237a51a69474cd2fc4b7cfb3f",
+            "path": "resources/steallife/logo.png"
+          }
+        },
+        {
+          "id": "logotext.png",
+          "name": "logotext.png",
+          "type": "File",
+          "artifact": {
+            "size": 10682,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/steallife/logotext.png",
+            "MD5": "ede3e3a26d304d8dcbb05322ac7734b8",
+            "path": "resources/steallife/logotext.png"
+          }
+        },
+        {
+          "id": "logout.png",
+          "name": "logout.png",
+          "type": "File",
+          "artifact": {
+            "size": 7988,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/steallife/logout.png",
+            "MD5": "2866f3d528fc1b46801f482d49fc3d2b",
+            "path": "resources/steallife/logout.png"
+          }
+        },
+        {
+          "id": "selectionbox.png",
+          "name": "selectionbox.png",
+          "type": "File",
+          "artifact": {
+            "size": 1612,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/steallife/selectionbox.png",
+            "MD5": "24cb094b21963534ef83edac8846a2e7",
+            "path": "resources/steallife/selectionbox.png"
+          }
+        },
+        {
+          "id": "selectionboxlarge.png",
+          "name": "selectionboxlarge.png",
+          "type": "File",
+          "artifact": {
+            "size": 2451,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/steallife/selectionboxlarge.png",
+            "MD5": "b442d6fe502d5328d2c8078cadc1d656",
+            "path": "resources/steallife/selectionboxlarge.png"
+          }
+        },
+        {
+          "id": "settings.png",
+          "name": "settings.png",
+          "type": "File",
+          "artifact": {
+            "size": 35127,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/steallife/settings.png",
+            "MD5": "015b69e8e179e9942c22398890b531b8",
+            "path": "resources/steallife/settings.png"
+          }
+        },
+        {
+          "id": "spashtext.txt",
+          "name": "spashtext.txt",
+          "type": "File",
+          "artifact": {
+            "size": 303,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/steallife/spashtext.txt",
+            "MD5": "ba535f986c377f8286fcdd5183333e85",
+            "path": "resources/steallife/spashtext.txt"
+          }
+        },
+        {
+          "id": "window.png",
+          "name": "window.png",
+          "type": "File",
+          "artifact": {
+            "size": 4877,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/resources/steallife/window.png",
+            "MD5": "709719b9f82b4af71ea3277e21a45808",
+            "path": "resources/steallife/window.png"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 85,
+            "url": "https://github.com/YassiGame/StealLife-ModPack-Files/raw/main/servers/StealLife-1.12.2/files/servers.dat",
+            "MD5": "8bb02ec2b2afdd78f05c70dfabedd5dc",
+            "path": "servers.dat"
+          }
+        }
+      ]
+    }
+  ]
+}
