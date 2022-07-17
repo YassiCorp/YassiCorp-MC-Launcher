@@ -3698,6 +3698,27 @@ input:checked + .toggleSwitchSlider:before {
     opacity: 1.0;
 }
 
+.serverListingDeco {
+    border: none;
+    padding: 0px;
+    width: 375px;
+    min-height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    opacity: 0.6;
+    transition: 0.25s ease;
+    cursor: pointer;
+    position: relative;
+    background: rgba(131, 131, 131, 0.25);
+}
+
+.serverListingDeco:hover,
+.serverListingDeco:focus {
+    outline: none;
+    opacity: 1.0;
+}
+
 .accountListing {
     color: white;
     border: 1px solid rgba(126, 126, 126, 0.57);
