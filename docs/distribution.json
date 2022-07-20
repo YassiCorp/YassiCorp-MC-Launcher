@@ -12851,16 +12851,6 @@
           }
         },
         {
-          "id": "thebetweenlands:thebetweenlands:3.7.2@jar",
-          "name": "The Betweenlands",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 113412714,
-            "url": "https://github.com/YassiCorp/YassiCorp-MC-Launcher-Files/raw/main/servers/All_The_Mods_3_Remix-1.12.2/forgemods/required/TheBetweenlands-3.7.2-universal.jar",
-            "MD5": "c72d559f9221817a256324e5b63c3025"
-          }
-        },
-        {
           "id": "mcjty.theoneprobe:theoneprobe:1.12-1.4.28@jar",
           "name": "The One Probe",
           "type": "ForgeMod",
