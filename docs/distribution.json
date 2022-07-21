@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "rss": "https://rss.yassicorp.eu/launcher",
   "servers": [
     {
@@ -3610,6 +3610,16 @@
           }
         },
         {
+          "id": "com.creativemd:creativecore:1.10@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320474,
+            "url": "http://node2.incamc.com:2665/servers/All_The_Mods_3_Remix-1.12.2/forgemods/required/CreativeCore_v1.10.70_mc1.12.2.jar",
+            "MD5": "2c1f06ceb07b1bb20c79ad4991a48f7b"
+          }
+        },
+        {
           "id": "team.chisel:ctm:MC1.12.2-1.0.2.31@jar",
           "name": "CTM",
           "type": "ForgeMod",
@@ -4666,16 +4676,6 @@
           }
         },
         {
-          "id": "net.malisis.core:malisiscore:1.12.2-6.5.1-SNAPSHOT@jar",
-          "name": "MalisisCore",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1939783,
-            "url": "http://node2.incamc.com:2665/servers/All_The_Mods_3_Remix-1.12.2/forgemods/required/malisiscore-1.12.2-6.5.1.jar",
-            "MD5": "ccc183a97d7b9688a49bf29b61343f49"
-          }
-        },
-        {
           "id": "net.malisis.doors:malisisdoors:1.12.2-7.3.0@jar",
           "name": "MalisisDoors",
           "type": "ForgeMod",
@@ -5073,6 +5073,16 @@
             "size": 184743,
             "url": "http://node2.incamc.com:2665/servers/All_The_Mods_3_Remix-1.12.2/forgemods/required/OreExcavation-1.4.150.jar",
             "MD5": "868369238ff464e7bd081d6d5fc17224"
+          }
+        },
+        {
+          "id": "org.orecruncher:orelib:1.12.2-3.6.0.1@jar",
+          "name": "OreLib Support Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 341728,
+            "url": "http://node2.incamc.com:2665/servers/All_The_Mods_3_Remix-1.12.2/forgemods/required/OreLib-1.12.2-3.6.0.1.jar",
+            "MD5": "00cce3b240365458adcad3e77782358a"
           }
         },
         {
@@ -24429,6 +24439,17 @@
             "url": "http://node2.incamc.com:2665/servers/All_The_Mods_3_Remix-1.12.2/files/config/ynot.cfg",
             "MD5": "76cf07b0f53e2652c155c4e4468a267b",
             "path": "config/ynot.cfg"
+          }
+        },
+        {
+          "id": "malisiscore-1.12.2-6.5.1.jar",
+          "name": "malisiscore-1.12.2-6.5.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1939783,
+            "url": "http://node2.incamc.com:2665/servers/All_The_Mods_3_Remix-1.12.2/files/mods/malisiscore-1.12.2-6.5.1.jar",
+            "MD5": "ccc183a97d7b9688a49bf29b61343f49",
+            "path": "mods/malisiscore-1.12.2-6.5.1.jar"
           }
         },
         {
