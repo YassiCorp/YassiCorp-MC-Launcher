@@ -1,5 +1,5 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "rss": "https://rss.yassicorp.eu/launcher",
   "servers": [
     {
@@ -23596,7 +23596,7 @@
               "type": "Library",
               "artifact": {
                 "size": 11352644,
-                "MD5": "2fe6e542b3de367bb4dc25e2643ef6b0",
+                "MD5": "7f8bb82d3d74e6fddf54accd7594ab8f",
                 "url": "http://node2.incamc.com:2665/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
               },
               "subModules": []
@@ -25127,58 +25127,102 @@
           }
         },
         {
-          "id": "featuredservers.json",
-          "name": "featuredservers.json",
-          "type": "File",
-          "artifact": {
-            "size": 95,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/FeaturedServers/featuredservers.json",
-            "MD5": "3b2b6386172f85c7222fd5a85fe2ab23",
-            "path": "config/FeaturedServers/featuredservers.json"
-          }
-        },
-        {
-          "id": "additions-client.toml",
-          "name": "additions-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 280,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/Mekanism/additions-client.toml",
-            "MD5": "40b866e18399b8b7639c33e04f9d9541",
-            "path": "config/Mekanism/additions-client.toml"
-          }
-        },
-        {
-          "id": "additions-common.toml",
-          "name": "additions-common.toml",
-          "type": "File",
-          "artifact": {
-            "size": 6175,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/Mekanism/additions-common.toml",
-            "MD5": "9885a3b3856963421efd69f0ac9b81f3",
-            "path": "config/Mekanism/additions-common.toml"
-          }
-        },
-        {
           "id": "client.toml",
           "name": "client.toml",
           "type": "File",
           "artifact": {
             "size": 3951,
             "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/Mekanism/client.toml",
-            "MD5": "a9b0b10020338ca7626572251b0f4518",
+            "MD5": "87e5acbd2c342a0e46f9edc8b0669308",
             "path": "config/Mekanism/client.toml"
           }
         },
         {
-          "id": "tools-client.toml",
-          "name": "tools-client.toml",
+          "id": "gear.toml",
+          "name": "gear.toml",
           "type": "File",
           "artifact": {
-            "size": 180,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/Mekanism/tools-client.toml",
-            "MD5": "9f367ad557833f4a294b2da0fcdcc835",
-            "path": "config/Mekanism/tools-client.toml"
+            "size": 13099,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/Mekanism/gear.toml",
+            "MD5": "2efddbd8c08d842990b80eb13d1e7559",
+            "path": "config/Mekanism/gear.toml"
+          }
+        },
+        {
+          "id": "general.toml",
+          "name": "general.toml",
+          "type": "File",
+          "artifact": {
+            "size": 9894,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/Mekanism/general.toml",
+            "MD5": "3bfdf8ae2836fe82d106816aa70ac78a",
+            "path": "config/Mekanism/general.toml"
+          }
+        },
+        {
+          "id": "generators-gear.toml",
+          "name": "generators-gear.toml",
+          "type": "File",
+          "artifact": {
+            "size": 781,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/Mekanism/generators-gear.toml",
+            "MD5": "92c06793bc46fe722b39bbd945646c8c",
+            "path": "config/Mekanism/generators-gear.toml"
+          }
+        },
+        {
+          "id": "generators.toml",
+          "name": "generators.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4632,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/Mekanism/generators.toml",
+            "MD5": "0b7670f1610ff84fa1ddcb8cecc13553",
+            "path": "config/Mekanism/generators.toml"
+          }
+        },
+        {
+          "id": "machine-storage.toml",
+          "name": "machine-storage.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2224,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/Mekanism/machine-storage.toml",
+            "MD5": "9de586761af0a92ea0c6ebac87dfa23b",
+            "path": "config/Mekanism/machine-storage.toml"
+          }
+        },
+        {
+          "id": "machine-usage.toml",
+          "name": "machine-usage.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2454,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/Mekanism/machine-usage.toml",
+            "MD5": "179e99aad04a329b6934e25ebef6d4b0",
+            "path": "config/Mekanism/machine-usage.toml"
+          }
+        },
+        {
+          "id": "tiers.toml",
+          "name": "tiers.toml",
+          "type": "File",
+          "artifact": {
+            "size": 9222,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/Mekanism/tiers.toml",
+            "MD5": "1159c73419bc005ac01156f3fc4619ba",
+            "path": "config/Mekanism/tiers.toml"
+          }
+        },
+        {
+          "id": "world.toml",
+          "name": "world.toml",
+          "type": "File",
+          "artifact": {
+            "size": 5844,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/Mekanism/world.toml",
+            "MD5": "c5d89b61a85f519b9611dc0c8b54f1f5",
+            "path": "config/Mekanism/world.toml"
           }
         },
         {
@@ -25193,58 +25237,58 @@
           }
         },
         {
-          "id": "README.txt",
-          "name": "README.txt",
+          "id": "WeirdingGadget.toml",
+          "name": "WeirdingGadget.toml",
           "type": "File",
           "artifact": {
-            "size": 679,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/YungsExtras/README.txt",
-            "MD5": "1aa6b9932c419d5ae25892e0df3f5b74",
-            "path": "config/YungsExtras/README.txt"
+            "size": 418,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/WeirdingGadget.toml",
+            "MD5": "9ba0c6d69af471d32c3f9a073646361c",
+            "path": "config/WeirdingGadget.toml"
           }
         },
         {
-          "id": "README.txt",
-          "name": "README.txt",
+          "id": "WeirdingGadgetLimits.toml",
+          "name": "WeirdingGadgetLimits.toml",
           "type": "File",
           "artifact": {
-            "size": 1357,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/YungsExtras/forge-1_16/README.txt",
-            "MD5": "50e248db67af1c70b4dd3adcd2cf7670",
-            "path": "config/YungsExtras/forge-1_16/README.txt"
+            "size": 376,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/WeirdingGadgetLimits.toml",
+            "MD5": "ae651528d1f81e8ed237332c9163bdab",
+            "path": "config/WeirdingGadgetLimits.toml"
           }
         },
         {
-          "id": "wishing_wells.json",
-          "name": "wishing_wells.json",
+          "id": "abnormals_core-client.toml",
+          "name": "abnormals_core-client.toml",
           "type": "File",
           "artifact": {
-            "size": 202,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/YungsExtras/forge-1_16/wishing_wells.json",
-            "MD5": "dadc25abc17cc9cdc9155b147e8e3895",
-            "path": "config/YungsExtras/forge-1_16/wishing_wells.json"
+            "size": 909,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/abnormals_core-client.toml",
+            "MD5": "507d3b6e5ebefe850f67c8c7adebc31e",
+            "path": "config/abnormals_core-client.toml"
           }
         },
         {
-          "id": "YungsExtras-forge-1_16.toml",
-          "name": "YungsExtras-forge-1_16.toml",
+          "id": "abnormals_core-common.toml",
+          "name": "abnormals_core-common.toml",
           "type": "File",
           "artifact": {
-            "size": 4488,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/YungsExtras-forge-1_16.toml",
-            "MD5": "5ddc98a3b2a8e36cffedab6124e786ab",
-            "path": "config/YungsExtras-forge-1_16.toml"
+            "size": 548,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/abnormals_core-common.toml",
+            "MD5": "6ed8aa59c3c72ddec83a71d556dacb71",
+            "path": "config/abnormals_core-common.toml"
           }
         },
         {
-          "id": "ambientsounds-client.json",
-          "name": "ambientsounds-client.json",
+          "id": "aiimprovements-common.toml",
+          "name": "aiimprovements-common.toml",
           "type": "File",
           "artifact": {
-            "size": 1765,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ambientsounds-client.json",
-            "MD5": "5f968bd7b1383fb628b1d8ab36d7efa1",
-            "path": "config/ambientsounds-client.json"
+            "size": 5218,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/aiimprovements-common.toml",
+            "MD5": "60444b6a03f44f6d631042781af97a7b",
+            "path": "config/aiimprovements-common.toml"
           }
         },
         {
@@ -25254,327 +25298,965 @@
           "artifact": {
             "size": 1361,
             "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/appleskin-client.toml",
-            "MD5": "999dd7d912a7eb915c59b1025710ca12",
+            "MD5": "96c41ff44a443916b2a59da9feef9950",
             "path": "config/appleskin-client.toml"
           }
         },
         {
-          "id": "armorstatushud-client.toml",
-          "name": "armorstatushud-client.toml",
+          "id": "aquaculture-common.toml",
+          "name": "aquaculture-common.toml",
           "type": "File",
           "artifact": {
-            "size": 2517,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/armorstatushud-client.toml",
-            "MD5": "8a878563ecfc89dd38eae1fb519ce99a",
-            "path": "config/armorstatushud-client.toml"
+            "size": 1398,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/aquaculture-common.toml",
+            "MD5": "554c924e854811592f3ba9385c0352a8",
+            "path": "config/aquaculture-common.toml"
           }
         },
         {
-          "id": "betteranimalsplus-client.toml",
-          "name": "betteranimalsplus-client.toml",
+          "id": "accelerate.toml",
+          "name": "accelerate.toml",
           "type": "File",
           "artifact": {
-            "size": 357,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/betteranimalsplus-client.toml",
-            "MD5": "c5c24a50d8dea400344a33861d2c83df",
-            "path": "config/betteranimalsplus-client.toml"
+            "size": 265,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/accelerate.toml",
+            "MD5": "c2fb416e17ff1c61089a47f3e977b479",
+            "path": "config/ars_nouveau/accelerate.toml"
           }
         },
         {
-          "id": "README.txt",
-          "name": "README.txt",
+          "id": "amplify.toml",
+          "name": "amplify.toml",
           "type": "File",
           "artifact": {
-            "size": 746,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/bettercaves/README.txt",
-            "MD5": "4420f3652f8bcbec212c0e133dd6eadc",
-            "path": "config/bettercaves/README.txt"
+            "size": 265,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/amplify.toml",
+            "MD5": "1eadc476488c3306d044f71f26a16ad4",
+            "path": "config/ars_nouveau/amplify.toml"
           }
         },
         {
-          "id": "bettercaves-1_16.toml",
-          "name": "bettercaves-1_16.toml",
+          "id": "aoe.toml",
+          "name": "aoe.toml",
           "type": "File",
           "artifact": {
-            "size": 15558,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/bettercaves-1_16.toml",
-            "MD5": "929a96fe0752f216b958a9598fc219a9",
-            "path": "config/bettercaves-1_16.toml"
+            "size": 265,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/aoe.toml",
+            "MD5": "60f3ea4e4f551ba05ec123a16e3d41ad",
+            "path": "config/ars_nouveau/aoe.toml"
           }
         },
         {
-          "id": "betterdungeons-forge-1_16.toml",
-          "name": "betterdungeons-forge-1_16.toml",
+          "id": "aquatic.toml",
+          "name": "aquatic.toml",
           "type": "File",
           "artifact": {
-            "size": 12720,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/betterdungeons-forge-1_16.toml",
-            "MD5": "e7e8af11c5a185a55a8b603866eca7de",
-            "path": "config/betterdungeons-forge-1_16.toml"
+            "size": 528,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/aquatic.toml",
+            "MD5": "b9739e6744fe45e0a5ab3436f7b5d87e",
+            "path": "config/ars_nouveau/aquatic.toml"
           }
         },
         {
-          "id": "biomes.json",
-          "name": "biomes.json",
+          "id": "blink.toml",
+          "name": "blink.toml",
           "type": "File",
           "artifact": {
-            "size": 6198,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/betterendforge/biomes.json",
-            "MD5": "7a20588b5949b3ae5ebce26e752681f5",
-            "path": "config/betterendforge/biomes.json"
+            "size": 497,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/blink.toml",
+            "MD5": "f69208816686811b6207ad0c210145e0",
+            "path": "config/ars_nouveau/blink.toml"
           }
         },
         {
-          "id": "client.json",
-          "name": "client.json",
+          "id": "bounce.toml",
+          "name": "bounce.toml",
           "type": "File",
           "artifact": {
-            "size": 167,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/betterendforge/client.json",
-            "MD5": "87f10679cda304f37e4e2220017e9e4d",
-            "path": "config/betterendforge/client.json"
+            "size": 460,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/bounce.toml",
+            "MD5": "492789beb947408cc0f2ca3d103b96e3",
+            "path": "config/ars_nouveau/bounce.toml"
           }
         },
         {
-          "id": "generator.json",
-          "name": "generator.json",
+          "id": "break.toml",
+          "name": "break.toml",
           "type": "File",
           "artifact": {
-            "size": 2109,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/betterendforge/generator.json",
-            "MD5": "adfcaaed2cc941c432bf30bc32b05c3f",
-            "path": "config/betterendforge/generator.json"
+            "size": 395,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/break.toml",
+            "MD5": "267fa9298d2ba1f91494d6826d689729",
+            "path": "config/ars_nouveau/break.toml"
           }
         },
         {
-          "id": "portals.json",
-          "name": "portals.json",
+          "id": "cold_snap.toml",
+          "name": "cold_snap.toml",
           "type": "File",
           "artifact": {
-            "size": 195,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/betterendforge/portals.json",
-            "MD5": "96ae5645a37457b28f792494ff9dbfaa",
-            "path": "config/betterendforge/portals.json"
+            "size": 618,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/cold_snap.toml",
+            "MD5": "6236cbdc982fb0e28639451b00e68ef4",
+            "path": "config/ars_nouveau/cold_snap.toml"
           }
         },
         {
-          "id": "README.txt",
-          "name": "README.txt",
+          "id": "conjure_water.toml",
+          "name": "conjure_water.toml",
           "type": "File",
           "artifact": {
-            "size": 6713,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/bettermineshafts/1_16/README.txt",
-            "MD5": "97bea8a7d6a92140e094995a0f85166c",
-            "path": "config/bettermineshafts/1_16/README.txt"
+            "size": 396,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/conjure_water.toml",
+            "MD5": "d8574bdeea27c5bdccdd941fd5de1d2a",
+            "path": "config/ars_nouveau/conjure_water.toml"
           }
         },
         {
-          "id": "biomeTags.txt",
-          "name": "biomeTags.txt",
+          "id": "craft.toml",
+          "name": "craft.toml",
           "type": "File",
           "artifact": {
-            "size": 459,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/bettermineshafts/1_16/biomeTags.txt",
-            "MD5": "b00fa7fbe761b84f14f509f8dc599762",
-            "path": "config/bettermineshafts/1_16/biomeTags.txt"
+            "size": 396,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/craft.toml",
+            "MD5": "041cbab97b9ba4ae07709ec182a7c113",
+            "path": "config/ars_nouveau/craft.toml"
           }
         },
         {
-          "id": "variants.json",
-          "name": "variants.json",
+          "id": "crush.toml",
+          "name": "crush.toml",
           "type": "File",
           "artifact": {
-            "size": 20802,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/bettermineshafts/1_16/variants.json",
-            "MD5": "0abc0176348d717be5987f08631c688d",
-            "path": "config/bettermineshafts/1_16/variants.json"
+            "size": 487,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/crush.toml",
+            "MD5": "2698833d7e54ce4928744799316286ba",
+            "path": "config/ars_nouveau/crush.toml"
           }
         },
         {
-          "id": "README.txt",
-          "name": "README.txt",
+          "id": "cut.toml",
+          "name": "cut.toml",
           "type": "File",
           "artifact": {
-            "size": 546,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/bettermineshafts/README.txt",
-            "MD5": "cbcfb42c8475c62c1598aa0814296839",
-            "path": "config/bettermineshafts/README.txt"
+            "size": 486,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/cut.toml",
+            "MD5": "d61974b71815adf338047b0e1e6ab229",
+            "path": "config/ars_nouveau/cut.toml"
           }
         },
         {
-          "id": "bettermineshafts-forge-1_16.toml",
-          "name": "bettermineshafts-forge-1_16.toml",
+          "id": "dampen.toml",
+          "name": "dampen.toml",
           "type": "File",
           "artifact": {
-            "size": 3792,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/bettermineshafts-forge-1_16.toml",
-            "MD5": "8c25351dff0d96612b63ddc3696665f2",
-            "path": "config/bettermineshafts-forge-1_16.toml"
+            "size": 265,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/dampen.toml",
+            "MD5": "7a1c91c4d85a67b484478add302c6ce9",
+            "path": "config/ars_nouveau/dampen.toml"
           }
         },
         {
-          "id": "README.txt",
-          "name": "README.txt",
+          "id": "delay.toml",
+          "name": "delay.toml",
           "type": "File",
           "artifact": {
-            "size": 707,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/betterstrongholds/README.txt",
-            "MD5": "9c87e3750c4f479deef3c9ae7c3fabb9",
-            "path": "config/betterstrongholds/README.txt"
+            "size": 525,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/delay.toml",
+            "MD5": "756b1dfbb67c4c5f5502e1d4452490cf",
+            "path": "config/ars_nouveau/delay.toml"
           }
         },
         {
-          "id": "README.txt",
-          "name": "README.txt",
+          "id": "dispel.toml",
+          "name": "dispel.toml",
           "type": "File",
           "artifact": {
-            "size": 2830,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/betterstrongholds/forge-1_16/README.txt",
-            "MD5": "38d8610721769459e29aa78954bca2d7",
-            "path": "config/betterstrongholds/forge-1_16/README.txt"
+            "size": 396,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/dispel.toml",
+            "MD5": "f9d7871cb9e7c128cf54c343f6f69df9",
+            "path": "config/ars_nouveau/dispel.toml"
           }
         },
         {
-          "id": "armorstands.json",
-          "name": "armorstands.json",
+          "id": "duration_down.toml",
+          "name": "duration_down.toml",
           "type": "File",
           "artifact": {
-            "size": 1131,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/betterstrongholds/forge-1_16/armorstands.json",
-            "MD5": "fbc32d333cb7c6ec1c73ac2c05cf01a3",
-            "path": "config/betterstrongholds/forge-1_16/armorstands.json"
+            "size": 265,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/duration_down.toml",
+            "MD5": "9a2e4b2e468607dae1b4f00b4d7bf808",
+            "path": "config/ars_nouveau/duration_down.toml"
           }
         },
         {
-          "id": "itemframes.json",
-          "name": "itemframes.json",
+          "id": "ender_inventory.toml",
+          "name": "ender_inventory.toml",
           "type": "File",
           "artifact": {
-            "size": 680,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/betterstrongholds/forge-1_16/itemframes.json",
-            "MD5": "c52e2916ce7943b2c4a8cf3acdb94797",
-            "path": "config/betterstrongholds/forge-1_16/itemframes.json"
+            "size": 396,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/ender_inventory.toml",
+            "MD5": "041cbab97b9ba4ae07709ec182a7c113",
+            "path": "config/ars_nouveau/ender_inventory.toml"
           }
         },
         {
-          "id": "ores.json",
-          "name": "ores.json",
+          "id": "evaporate.toml",
+          "name": "evaporate.toml",
           "type": "File",
           "artifact": {
-            "size": 346,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/betterstrongholds/forge-1_16/ores.json",
-            "MD5": "f82c12a6aeeb0d8a0028ea7f96a3856c",
-            "path": "config/betterstrongholds/forge-1_16/ores.json"
+            "size": 396,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/evaporate.toml",
+            "MD5": "041cbab97b9ba4ae07709ec182a7c113",
+            "path": "config/ars_nouveau/evaporate.toml"
           }
         },
         {
-          "id": "rareblocks.json",
-          "name": "rareblocks.json",
+          "id": "exchange.toml",
+          "name": "exchange.toml",
           "type": "File",
           "artifact": {
-            "size": 238,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/betterstrongholds/forge-1_16/rareblocks.json",
-            "MD5": "9082e76e53eb5ee1ef62e4f08f154475",
-            "path": "config/betterstrongholds/forge-1_16/rareblocks.json"
+            "size": 396,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/exchange.toml",
+            "MD5": "041cbab97b9ba4ae07709ec182a7c113",
+            "path": "config/ars_nouveau/exchange.toml"
           }
         },
         {
-          "id": "betterstrongholds-forge-1_16.toml",
-          "name": "betterstrongholds-forge-1_16.toml",
+          "id": "explosion.toml",
+          "name": "explosion.toml",
           "type": "File",
           "artifact": {
-            "size": 4674,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/betterstrongholds-forge-1_16.toml",
-            "MD5": "48e66dae46793506ba491bf92758af18",
-            "path": "config/betterstrongholds-forge-1_16.toml"
+            "size": 697,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/explosion.toml",
+            "MD5": "c5412286e5145b8afe13f9ce9a2b9eda",
+            "path": "config/ars_nouveau/explosion.toml"
           }
         },
         {
-          "id": "camera-client.toml",
-          "name": "camera-client.toml",
+          "id": "extend_time.toml",
+          "name": "extend_time.toml",
           "type": "File",
           "artifact": {
-            "size": 317,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/camera-client.toml",
-            "MD5": "bf3116798babf787eec41c3ca9e1efcb",
-            "path": "config/camera-client.toml"
+            "size": 265,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/extend_time.toml",
+            "MD5": "c2fb416e17ff1c61089a47f3e977b479",
+            "path": "config/ars_nouveau/extend_time.toml"
           }
         },
         {
-          "id": "cfm-client.toml",
-          "name": "cfm-client.toml",
+          "id": "extract.toml",
+          "name": "extract.toml",
           "type": "File",
           "artifact": {
-            "size": 190,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/cfm-client.toml",
-            "MD5": "7fa57b2ec3af27c80b00b56b1fac740b",
-            "path": "config/cfm-client.toml"
+            "size": 265,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/extract.toml",
+            "MD5": "fb49e3f7cd67d9f025a854228bfc9a0c",
+            "path": "config/ars_nouveau/extract.toml"
           }
         },
         {
-          "id": "cfm-common.toml",
-          "name": "cfm-common.toml",
+          "id": "fangs.toml",
+          "name": "fangs.toml",
           "type": "File",
           "artifact": {
-            "size": 259,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/cfm-common.toml",
-            "MD5": "0d385a1ecf645dda802350ffe3cb4bc4",
-            "path": "config/cfm-common.toml"
+            "size": 487,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/fangs.toml",
+            "MD5": "a88ba0cfccfad6128311e706df3472ee",
+            "path": "config/ars_nouveau/fangs.toml"
           }
         },
         {
-          "id": "cgm-client.toml",
-          "name": "cgm-client.toml",
+          "id": "fell.toml",
+          "name": "fell.toml",
           "type": "File",
           "artifact": {
-            "size": 3371,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/cgm-client.toml",
-            "MD5": "66d037b2753f4b955ab39d834b4e034a",
-            "path": "config/cgm-client.toml"
+            "size": 530,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/fell.toml",
+            "MD5": "1246547761c53a9b6f9d0ffae54db6c7",
+            "path": "config/ars_nouveau/fell.toml"
           }
         },
         {
-          "id": "cgm-common.toml",
-          "name": "cgm-common.toml",
+          "id": "firework.toml",
+          "name": "firework.toml",
           "type": "File",
           "artifact": {
-            "size": 6278,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/cgm-common.toml",
-            "MD5": "171c63a9e2cbfd917f8804f89a96ebad",
-            "path": "config/cgm-common.toml"
+            "size": 396,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/firework.toml",
+            "MD5": "041cbab97b9ba4ae07709ec182a7c113",
+            "path": "config/ars_nouveau/firework.toml"
           }
         },
         {
-          "id": "classicbar-client.toml",
-          "name": "classicbar-client.toml",
+          "id": "flare.toml",
+          "name": "flare.toml",
           "type": "File",
           "artifact": {
-            "size": 2169,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/classicbar-client.toml",
-            "MD5": "5ad7dd6ed1b21100418cbe6be2c10eaa",
-            "path": "config/classicbar-client.toml"
+            "size": 555,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/flare.toml",
+            "MD5": "f476e8aac461a43442c37ac9f75715ce",
+            "path": "config/ars_nouveau/flare.toml"
           }
         },
         {
-          "id": "cosmeticarmorreworked-client.toml",
-          "name": "cosmeticarmorreworked-client.toml",
+          "id": "fortune.toml",
+          "name": "fortune.toml",
           "type": "File",
           "artifact": {
-            "size": 1230,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/cosmeticarmorreworked-client.toml",
-            "MD5": "efabbdb6c08be2cbf33d14c8f5d14a27",
-            "path": "config/cosmeticarmorreworked-client.toml"
+            "size": 265,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/fortune.toml",
+            "MD5": "520896e38cf5601a3c90e15d0be2b473",
+            "path": "config/ars_nouveau/fortune.toml"
           }
         },
         {
-          "id": "cosmeticarmorreworked-common.toml",
-          "name": "cosmeticarmorreworked-common.toml",
+          "id": "freeze.toml",
+          "name": "freeze.toml",
           "type": "File",
           "artifact": {
-            "size": 379,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/cosmeticarmorreworked-common.toml",
-            "MD5": "72142fb70ba132624cf5a6fb12ed7805",
-            "path": "config/cosmeticarmorreworked-common.toml"
+            "size": 528,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/freeze.toml",
+            "MD5": "0ea719421ab10d43987126b97d0dc7ac",
+            "path": "config/ars_nouveau/freeze.toml"
+          }
+        },
+        {
+          "id": "glide.toml",
+          "name": "glide.toml",
+          "type": "File",
+          "artifact": {
+            "size": 532,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/glide.toml",
+            "MD5": "16c92f5512dba3c73125cbbb18e166d3",
+            "path": "config/ars_nouveau/glide.toml"
+          }
+        },
+        {
+          "id": "gravity.toml",
+          "name": "gravity.toml",
+          "type": "File",
+          "artifact": {
+            "size": 460,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/gravity.toml",
+            "MD5": "acc186c3c5e5e333b97175d0d5093116",
+            "path": "config/ars_nouveau/gravity.toml"
+          }
+        },
+        {
+          "id": "grow.toml",
+          "name": "grow.toml",
+          "type": "File",
+          "artifact": {
+            "size": 396,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/grow.toml",
+            "MD5": "7a601b3c901e7baeff1794ec78e9a772",
+            "path": "config/ars_nouveau/grow.toml"
+          }
+        },
+        {
+          "id": "gust.toml",
+          "name": "gust.toml",
+          "type": "File",
+          "artifact": {
+            "size": 524,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/gust.toml",
+            "MD5": "8731b4d7f3a4d2f1045a1f8a717e463a",
+            "path": "config/ars_nouveau/gust.toml"
+          }
+        },
+        {
+          "id": "harm.toml",
+          "name": "harm.toml",
+          "type": "File",
+          "artifact": {
+            "size": 617,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/harm.toml",
+            "MD5": "3f5d0cf4681bf0a924dd9e10a19cbe22",
+            "path": "config/ars_nouveau/harm.toml"
+          }
+        },
+        {
+          "id": "harvest.toml",
+          "name": "harvest.toml",
+          "type": "File",
+          "artifact": {
+            "size": 396,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/harvest.toml",
+            "MD5": "f5f3226879f59098c6112b295f570d3f",
+            "path": "config/ars_nouveau/harvest.toml"
+          }
+        },
+        {
+          "id": "haste.toml",
+          "name": "haste.toml",
+          "type": "File",
+          "artifact": {
+            "size": 528,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/haste.toml",
+            "MD5": "d3cb2856cd9f2dc8a79abd2e0d344e67",
+            "path": "config/ars_nouveau/haste.toml"
+          }
+        },
+        {
+          "id": "heal.toml",
+          "name": "heal.toml",
+          "type": "File",
+          "artifact": {
+            "size": 520,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/heal.toml",
+            "MD5": "80eda0600ca93832af53dd8a56afcc01",
+            "path": "config/ars_nouveau/heal.toml"
+          }
+        },
+        {
+          "id": "hex.toml",
+          "name": "hex.toml",
+          "type": "File",
+          "artifact": {
+            "size": 529,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/hex.toml",
+            "MD5": "00c9e18f8517a58cd6c4ead4bcdea803",
+            "path": "config/ars_nouveau/hex.toml"
+          }
+        },
+        {
+          "id": "ignite.toml",
+          "name": "ignite.toml",
+          "type": "File",
+          "artifact": {
+            "size": 527,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/ignite.toml",
+            "MD5": "5bd768ed927fc7b0fcf9ced81f395abd",
+            "path": "config/ars_nouveau/ignite.toml"
+          }
+        },
+        {
+          "id": "intangible.toml",
+          "name": "intangible.toml",
+          "type": "File",
+          "artifact": {
+            "size": 518,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/intangible.toml",
+            "MD5": "8463d3a5005f74166434c20a643cbb7b",
+            "path": "config/ars_nouveau/intangible.toml"
+          }
+        },
+        {
+          "id": "interact.toml",
+          "name": "interact.toml",
+          "type": "File",
+          "artifact": {
+            "size": 396,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/interact.toml",
+            "MD5": "f5f3226879f59098c6112b295f570d3f",
+            "path": "config/ars_nouveau/interact.toml"
+          }
+        },
+        {
+          "id": "invisibility.toml",
+          "name": "invisibility.toml",
+          "type": "File",
+          "artifact": {
+            "size": 528,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/invisibility.toml",
+            "MD5": "d3cb2856cd9f2dc8a79abd2e0d344e67",
+            "path": "config/ars_nouveau/invisibility.toml"
+          }
+        },
+        {
+          "id": "launch.toml",
+          "name": "launch.toml",
+          "type": "File",
+          "artifact": {
+            "size": 521,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/launch.toml",
+            "MD5": "82985efe943082a937cda5ed665244db",
+            "path": "config/ars_nouveau/launch.toml"
+          }
+        },
+        {
+          "id": "leap.toml",
+          "name": "leap.toml",
+          "type": "File",
+          "artifact": {
+            "size": 521,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/leap.toml",
+            "MD5": "725fa799f28a3d8fe3f2f09120fd7a36",
+            "path": "config/ars_nouveau/leap.toml"
+          }
+        },
+        {
+          "id": "light.toml",
+          "name": "light.toml",
+          "type": "File",
+          "artifact": {
+            "size": 460,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/light.toml",
+            "MD5": "fcee7cd7fd763a7905232e67cb75e91f",
+            "path": "config/ars_nouveau/light.toml"
+          }
+        },
+        {
+          "id": "lightning.toml",
+          "name": "lightning.toml",
+          "type": "File",
+          "artifact": {
+            "size": 578,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/lightning.toml",
+            "MD5": "9c0899a6c3e5aac46811f52f05b42283",
+            "path": "config/ars_nouveau/lightning.toml"
+          }
+        },
+        {
+          "id": "linger.toml",
+          "name": "linger.toml",
+          "type": "File",
+          "artifact": {
+            "size": 390,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/linger.toml",
+            "MD5": "799d9a103f35687277ee61d1717d152c",
+            "path": "config/ars_nouveau/linger.toml"
+          }
+        },
+        {
+          "id": "orbit.toml",
+          "name": "orbit.toml",
+          "type": "File",
+          "artifact": {
+            "size": 396,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/orbit.toml",
+            "MD5": "041cbab97b9ba4ae07709ec182a7c113",
+            "path": "config/ars_nouveau/orbit.toml"
+          }
+        },
+        {
+          "id": "phantom_block.toml",
+          "name": "phantom_block.toml",
+          "type": "File",
+          "artifact": {
+            "size": 395,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/phantom_block.toml",
+            "MD5": "5eebafb3061306e5457b553d315aada4",
+            "path": "config/ars_nouveau/phantom_block.toml"
+          }
+        },
+        {
+          "id": "pickup.toml",
+          "name": "pickup.toml",
+          "type": "File",
+          "artifact": {
+            "size": 396,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/pickup.toml",
+            "MD5": "f5f3226879f59098c6112b295f570d3f",
+            "path": "config/ars_nouveau/pickup.toml"
+          }
+        },
+        {
+          "id": "pierce.toml",
+          "name": "pierce.toml",
+          "type": "File",
+          "artifact": {
+            "size": 265,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/pierce.toml",
+            "MD5": "54c656fc94750e8a42ad92bd008b4525",
+            "path": "config/ars_nouveau/pierce.toml"
+          }
+        },
+        {
+          "id": "place_block.toml",
+          "name": "place_block.toml",
+          "type": "File",
+          "artifact": {
+            "size": 396,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/place_block.toml",
+            "MD5": "f5f3226879f59098c6112b295f570d3f",
+            "path": "config/ars_nouveau/place_block.toml"
+          }
+        },
+        {
+          "id": "projectile.toml",
+          "name": "projectile.toml",
+          "type": "File",
+          "artifact": {
+            "size": 395,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/projectile.toml",
+            "MD5": "267fa9298d2ba1f91494d6826d689729",
+            "path": "config/ars_nouveau/projectile.toml"
+          }
+        },
+        {
+          "id": "pull.toml",
+          "name": "pull.toml",
+          "type": "File",
+          "artifact": {
+            "size": 526,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/pull.toml",
+            "MD5": "27bf2838b4c8302febe5946e3cf33149",
+            "path": "config/ars_nouveau/pull.toml"
+          }
+        },
+        {
+          "id": "redstone_signal.toml",
+          "name": "redstone_signal.toml",
+          "type": "File",
+          "artifact": {
+            "size": 515,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/redstone_signal.toml",
+            "MD5": "579d0acadc7c62e22ba2001f8409b876",
+            "path": "config/ars_nouveau/redstone_signal.toml"
+          }
+        },
+        {
+          "id": "rune.toml",
+          "name": "rune.toml",
+          "type": "File",
+          "artifact": {
+            "size": 396,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/rune.toml",
+            "MD5": "f9d7871cb9e7c128cf54c343f6f69df9",
+            "path": "config/ars_nouveau/rune.toml"
+          }
+        },
+        {
+          "id": "self.toml",
+          "name": "self.toml",
+          "type": "File",
+          "artifact": {
+            "size": 395,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/self.toml",
+            "MD5": "267fa9298d2ba1f91494d6826d689729",
+            "path": "config/ars_nouveau/self.toml"
+          }
+        },
+        {
+          "id": "sensitive.toml",
+          "name": "sensitive.toml",
+          "type": "File",
+          "artifact": {
+            "size": 265,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/sensitive.toml",
+            "MD5": "c2fb416e17ff1c61089a47f3e977b479",
+            "path": "config/ars_nouveau/sensitive.toml"
+          }
+        },
+        {
+          "id": "shield.toml",
+          "name": "shield.toml",
+          "type": "File",
+          "artifact": {
+            "size": 528,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/shield.toml",
+            "MD5": "b56b484ed7ae773a09576a17660d81cc",
+            "path": "config/ars_nouveau/shield.toml"
+          }
+        },
+        {
+          "id": "slowfall.toml",
+          "name": "slowfall.toml",
+          "type": "File",
+          "artifact": {
+            "size": 528,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/slowfall.toml",
+            "MD5": "d3cb2856cd9f2dc8a79abd2e0d344e67",
+            "path": "config/ars_nouveau/slowfall.toml"
+          }
+        },
+        {
+          "id": "smelt.toml",
+          "name": "smelt.toml",
+          "type": "File",
+          "artifact": {
+            "size": 397,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/smelt.toml",
+            "MD5": "9a7e399a5c0f1742f1408e2be962f832",
+            "path": "config/ars_nouveau/smelt.toml"
+          }
+        },
+        {
+          "id": "snare.toml",
+          "name": "snare.toml",
+          "type": "File",
+          "artifact": {
+            "size": 528,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/snare.toml",
+            "MD5": "30d4a1a479e46b71896c9eb73d58dbe5",
+            "path": "config/ars_nouveau/snare.toml"
+          }
+        },
+        {
+          "id": "split.toml",
+          "name": "split.toml",
+          "type": "File",
+          "artifact": {
+            "size": 265,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/split.toml",
+            "MD5": "1eadc476488c3306d044f71f26a16ad4",
+            "path": "config/ars_nouveau/split.toml"
+          }
+        },
+        {
+          "id": "strength.toml",
+          "name": "strength.toml",
+          "type": "File",
+          "artifact": {
+            "size": 529,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/strength.toml",
+            "MD5": "2029e06bb24457a74d50b3479457c1cd",
+            "path": "config/ars_nouveau/strength.toml"
+          }
+        },
+        {
+          "id": "summon_decoy.toml",
+          "name": "summon_decoy.toml",
+          "type": "File",
+          "artifact": {
+            "size": 524,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/summon_decoy.toml",
+            "MD5": "04cd5678fd047cedbbac058fccdf8b4e",
+            "path": "config/ars_nouveau/summon_decoy.toml"
+          }
+        },
+        {
+          "id": "summon_steed.toml",
+          "name": "summon_steed.toml",
+          "type": "File",
+          "artifact": {
+            "size": 526,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/summon_steed.toml",
+            "MD5": "429e5188c0563e8e7a0385b1c6f3010f",
+            "path": "config/ars_nouveau/summon_steed.toml"
+          }
+        },
+        {
+          "id": "summon_vex.toml",
+          "name": "summon_vex.toml",
+          "type": "File",
+          "artifact": {
+            "size": 524,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/summon_vex.toml",
+            "MD5": "c8958936e4b955799b860750e302fa04",
+            "path": "config/ars_nouveau/summon_vex.toml"
+          }
+        },
+        {
+          "id": "summon_wolves.toml",
+          "name": "summon_wolves.toml",
+          "type": "File",
+          "artifact": {
+            "size": 524,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/summon_wolves.toml",
+            "MD5": "da2b647f561f8ae11bea8210a1a82484",
+            "path": "config/ars_nouveau/summon_wolves.toml"
+          }
+        },
+        {
+          "id": "toss.toml",
+          "name": "toss.toml",
+          "type": "File",
+          "artifact": {
+            "size": 396,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/toss.toml",
+            "MD5": "f5f3226879f59098c6112b295f570d3f",
+            "path": "config/ars_nouveau/toss.toml"
+          }
+        },
+        {
+          "id": "touch.toml",
+          "name": "touch.toml",
+          "type": "File",
+          "artifact": {
+            "size": 394,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/touch.toml",
+            "MD5": "612390ab8fee34d3196412aad18913a3",
+            "path": "config/ars_nouveau/touch.toml"
+          }
+        },
+        {
+          "id": "underfoot.toml",
+          "name": "underfoot.toml",
+          "type": "File",
+          "artifact": {
+            "size": 395,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/underfoot.toml",
+            "MD5": "5eebafb3061306e5457b553d315aada4",
+            "path": "config/ars_nouveau/underfoot.toml"
+          }
+        },
+        {
+          "id": "wind_shear.toml",
+          "name": "wind_shear.toml",
+          "type": "File",
+          "artifact": {
+            "size": 576,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/wind_shear.toml",
+            "MD5": "d043cab016b6b6876a7cc8623bf8e3be",
+            "path": "config/ars_nouveau/wind_shear.toml"
+          }
+        },
+        {
+          "id": "wither.toml",
+          "name": "wither.toml",
+          "type": "File",
+          "artifact": {
+            "size": 529,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau/wither.toml",
+            "MD5": "00c9e18f8517a58cd6c4ead4bcdea803",
+            "path": "config/ars_nouveau/wither.toml"
+          }
+        },
+        {
+          "id": "ars_nouveau-common.toml",
+          "name": "ars_nouveau-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3032,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ars_nouveau-common.toml",
+            "MD5": "2abbaf89747bfd4b406ce52493e271e3",
+            "path": "config/ars_nouveau-common.toml"
+          }
+        },
+        {
+          "id": "astralsorcery-client.toml",
+          "name": "astralsorcery-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 760,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/astralsorcery-client.toml",
+            "MD5": "add4cc7069d5a32c25fa3b73aa94ee4d",
+            "path": "config/astralsorcery-client.toml"
+          }
+        },
+        {
+          "id": "astralsorcery-common.toml",
+          "name": "astralsorcery-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 5050,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/astralsorcery-common.toml",
+            "MD5": "f6c7ac688d454ea1652f298a8da3366f",
+            "path": "config/astralsorcery-common.toml"
+          }
+        },
+        {
+          "id": "blockcarpentry-common.toml",
+          "name": "blockcarpentry-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 586,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/blockcarpentry-common.toml",
+            "MD5": "911ff11895a0c454e7d6b81c7355345b",
+            "path": "config/blockcarpentry-common.toml"
+          }
+        },
+        {
+          "id": "botania-client.toml",
+          "name": "botania-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2403,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/botania-client.toml",
+            "MD5": "17d67974dec53d48d718ac544e0ff2b1",
+            "path": "config/botania-client.toml"
+          }
+        },
+        {
+          "id": "botania-common.toml",
+          "name": "botania-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3591,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/botania-common.toml",
+            "MD5": "4b16f6237caa0ef2fd70dbb8cd32bea3",
+            "path": "config/botania-common.toml"
+          }
+        },
+        {
+          "id": "botanypots-client.toml",
+          "name": "botanypots-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 513,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/botanypots-client.toml",
+            "MD5": "eca4c31666280bd7c53d2f7e7fcd6673",
+            "path": "config/botanypots-client.toml"
+          }
+        },
+        {
+          "id": "buildinggadgets-client.toml",
+          "name": "buildinggadgets-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 229,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/buildinggadgets-client.toml",
+            "MD5": "ab297df8cd03c52d5f0fd28449d65f58",
+            "path": "config/buildinggadgets-client.toml"
+          }
+        },
+        {
+          "id": "buzzier_bees-common.toml",
+          "name": "buzzier_bees-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 241,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/buzzier_bees-common.toml",
+            "MD5": "f37be18abccb8fc076376fc145a5a5b5",
+            "path": "config/buzzier_bees-common.toml"
+          }
+        },
+        {
+          "id": "carryon-client.toml",
+          "name": "carryon-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1389,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/carryon-client.toml",
+            "MD5": "4b740c7c33c4b4b66bae365c7c4a5a89",
+            "path": "config/carryon-client.toml"
+          }
+        },
+        {
+          "id": "chiselsandbits-client.toml",
+          "name": "chiselsandbits-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2556,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/chiselsandbits-client.toml",
+            "MD5": "6c4b5df806d0a17a9273f6cb1c9924a3",
+            "path": "config/chiselsandbits-client.toml"
+          }
+        },
+        {
+          "id": "chiselsandbits-common.toml",
+          "name": "chiselsandbits-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 411,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/chiselsandbits-common.toml",
+            "MD5": "09da9323ecc40b515483a1d1d0201d26",
+            "path": "config/chiselsandbits-common.toml"
+          }
+        },
+        {
+          "id": "collective-common.toml",
+          "name": "collective-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 960,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/collective-common.toml",
+            "MD5": "705db3dc9fea61909cd087b6c7c92452",
+            "path": "config/collective-common.toml"
+          }
+        },
+        {
+          "id": "configured-client.toml",
+          "name": "configured-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 168,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/configured-client.toml",
+            "MD5": "985a1d83a343641cc58a0d3a74b21877",
+            "path": "config/configured-client.toml"
           }
         },
         {
@@ -25600,14 +26282,267 @@
           }
         },
         {
-          "id": "createaddition-common.toml",
-          "name": "createaddition-common.toml",
+          "id": "cucumber-client.toml",
+          "name": "cucumber-client.toml",
           "type": "File",
           "artifact": {
-            "size": 4333,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/createaddition-common.toml",
-            "MD5": "a9ecd055283c0a92b6b87b43bfa6a66a",
-            "path": "config/createaddition-common.toml"
+            "size": 171,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/cucumber-client.toml",
+            "MD5": "27be5be5cc9ac7ba2eb0e9e7a83da54e",
+            "path": "config/cucumber-client.toml"
+          }
+        },
+        {
+          "id": "cucumber-common.toml",
+          "name": "cucumber-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 251,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/cucumber-common.toml",
+            "MD5": "3de9153e932fb5d273a7c8e595c34030",
+            "path": "config/cucumber-common.toml"
+          }
+        },
+        {
+          "id": "curios-client.toml",
+          "name": "curios-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 637,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/curios-client.toml",
+            "MD5": "25a1e00fe9a0e22a8d54d471d6416b02",
+            "path": "config/curios-client.toml"
+          }
+        },
+        {
+          "id": "decorative_blocks-common.toml",
+          "name": "decorative_blocks-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 215,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/decorative_blocks-common.toml",
+            "MD5": "00d0686cc2d4755d823d023861421120",
+            "path": "config/decorative_blocks-common.toml"
+          }
+        },
+        {
+          "id": "client-config.toml",
+          "name": "client-config.toml",
+          "type": "File",
+          "artifact": {
+            "size": 144,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/defaultworldtype/client-config.toml",
+            "MD5": "c7c57bbdb17cf33516f767786693d5c8",
+            "path": "config/defaultworldtype/client-config.toml"
+          }
+        },
+        {
+          "id": "world-types.txt",
+          "name": "world-types.txt",
+          "type": "File",
+          "artifact": {
+            "size": 277,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/defaultworldtype/world-types.txt",
+            "MD5": "efd2ca29e968ed52403a5b47b43c2635",
+            "path": "config/defaultworldtype/world-types.txt"
+          }
+        },
+        {
+          "id": "eidolon-client.toml",
+          "name": "eidolon-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 112,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/eidolon-client.toml",
+            "MD5": "f090c896c0b7df73ed2ab6c56bc843e5",
+            "path": "config/eidolon-client.toml"
+          }
+        },
+        {
+          "id": "eidolon-common.toml",
+          "name": "eidolon-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1370,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/eidolon-common.toml",
+            "MD5": "30f0ea83acdf8b97b168256d9673917b",
+            "path": "config/eidolon-common.toml"
+          }
+        },
+        {
+          "id": "endergetic-common.toml",
+          "name": "endergetic-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 164,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/endergetic-common.toml",
+            "MD5": "3ebe92879fb28f8d45d72cb03c6bafad",
+            "path": "config/endergetic-common.toml"
+          }
+        },
+        {
+          "id": "endportalrecipe-common.toml",
+          "name": "endportalrecipe-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 358,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/endportalrecipe-common.toml",
+            "MD5": "893f4898e19057176ce421454a93aa48",
+            "path": "config/endportalrecipe-common.toml"
+          }
+        },
+        {
+          "id": "client.toml",
+          "name": "client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 504,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/extremereactors/client.toml",
+            "MD5": "2c1ae4ba56fb16b362e6ada20308df16",
+            "path": "config/extremereactors/client.toml"
+          }
+        },
+        {
+          "id": "common.toml",
+          "name": "common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 5102,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/extremereactors/common.toml",
+            "MD5": "b9a8984924d955c46ebbd95a226144e7",
+            "path": "config/extremereactors/common.toml"
+          }
+        },
+        {
+          "id": "b.png",
+          "name": "b.png",
+          "type": "File",
+          "artifact": {
+            "size": 1290,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/fancymenu/Assets/All%20in%20one/b.png",
+            "MD5": "137bf17141b426c670f2cda7b6dacb93",
+            "path": "config/fancymenu/Assets/All in one/b.png"
+          }
+        },
+        {
+          "id": "b2.png",
+          "name": "b2.png",
+          "type": "File",
+          "artifact": {
+            "size": 1545,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/fancymenu/Assets/All%20in%20one/b2.png",
+            "MD5": "52c3fa1f47a5b1f61c5e702fc55d3a15",
+            "path": "config/fancymenu/Assets/All in one/b2.png"
+          }
+        },
+        {
+          "id": "lolo.png",
+          "name": "lolo.png",
+          "type": "File",
+          "artifact": {
+            "size": 28807,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/fancymenu/Assets/All%20in%20one/lolo.png",
+            "MD5": "82ca24218e44a522ff7d78872e8dca00",
+            "path": "config/fancymenu/Assets/All in one/lolo.png"
+          }
+        },
+        {
+          "id": "m.png",
+          "name": "m.png",
+          "type": "File",
+          "artifact": {
+            "size": 1204,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/fancymenu/Assets/All%20in%20one/m.png",
+            "MD5": "0f20c7d1adbca4d9777fcd85e6367da9",
+            "path": "config/fancymenu/Assets/All in one/m.png"
+          }
+        },
+        {
+          "id": "m2.png",
+          "name": "m2.png",
+          "type": "File",
+          "artifact": {
+            "size": 1480,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/fancymenu/Assets/All%20in%20one/m2.png",
+            "MD5": "6eefb96b249704e5f6f45089bb5f704c",
+            "path": "config/fancymenu/Assets/All in one/m2.png"
+          }
+        },
+        {
+          "id": "q.png",
+          "name": "q.png",
+          "type": "File",
+          "artifact": {
+            "size": 776,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/fancymenu/Assets/All%20in%20one/q.png",
+            "MD5": "29faffdb1a6d8efe0124a3b271dc2433",
+            "path": "config/fancymenu/Assets/All in one/q.png"
+          }
+        },
+        {
+          "id": "q1.png",
+          "name": "q1.png",
+          "type": "File",
+          "artifact": {
+            "size": 987,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/fancymenu/Assets/All%20in%20one/q1.png",
+            "MD5": "ccf064b50411c9ba7e5a5260f6ba0f80",
+            "path": "config/fancymenu/Assets/All in one/q1.png"
+          }
+        },
+        {
+          "id": "s.png",
+          "name": "s.png",
+          "type": "File",
+          "artifact": {
+            "size": 1291,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/fancymenu/Assets/All%20in%20one/s.png",
+            "MD5": "61adc61b8102bd4eac395358510bfc99",
+            "path": "config/fancymenu/Assets/All in one/s.png"
+          }
+        },
+        {
+          "id": "s2.png",
+          "name": "s2.png",
+          "type": "File",
+          "artifact": {
+            "size": 1601,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/fancymenu/Assets/All%20in%20one/s2.png",
+            "MD5": "68cea7de361e39ca7ffa797b00954030",
+            "path": "config/fancymenu/Assets/All in one/s2.png"
+          }
+        },
+        {
+          "id": "st.png",
+          "name": "st.png",
+          "type": "File",
+          "artifact": {
+            "size": 1000,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/fancymenu/Assets/All%20in%20one/st.png",
+            "MD5": "d2a3f447dc31f7e7d08fafd72f9b3084",
+            "path": "config/fancymenu/Assets/All in one/st.png"
+          }
+        },
+        {
+          "id": "st2.png",
+          "name": "st2.png",
+          "type": "File",
+          "artifact": {
+            "size": 1274,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/fancymenu/Assets/All%20in%20one/st2.png",
+            "MD5": "ead2141312678611eab4442213806667",
+            "path": "config/fancymenu/Assets/All in one/st2.png"
+          }
+        },
+        {
+          "id": "animation.properties",
+          "name": "animation.properties",
+          "type": "File",
+          "artifact": {
+            "size": 8283,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/fancymenu/animations/bacccc/animation.properties",
+            "MD5": "3aad8082acc16e49f543f9ee3040e679",
+            "path": "config/fancymenu/animations/bacccc/animation.properties"
           }
         },
         {
@@ -25615,9 +26550,9 @@
           "name": "config.txt",
           "type": "File",
           "artifact": {
-            "size": 1638,
+            "size": 1935,
             "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/fancymenu/config.txt",
-            "MD5": "6ed4e8c2d68a497ec613f185de002b7f",
+            "MD5": "bb52faa0e03958cd7b2f31bdd4a0a118",
             "path": "config/fancymenu/config.txt"
           }
         },
@@ -25626,21 +26561,21 @@
           "name": "customizablemenus.txt",
           "type": "File",
           "artifact": {
-            "size": 133,
+            "size": 78,
             "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/fancymenu/customizablemenus.txt",
-            "MD5": "f97d07e4e8aedad5ac301730f264f3a7",
+            "MD5": "07f64ca74b24df0a77c8d840009fed6b",
             "path": "config/fancymenu/customizablemenus.txt"
           }
         },
         {
-          "id": "Main.txt",
-          "name": "Main.txt",
+          "id": "AllInOne.txt",
+          "name": "AllInOne.txt",
           "type": "File",
           "artifact": {
-            "size": 6167,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/fancymenu/customization/Main.txt",
-            "MD5": "c1356dade7cdb4655fd828a5990f029a",
-            "path": "config/fancymenu/customization/Main.txt"
+            "size": 4161,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/fancymenu/customization/AllInOne.txt",
+            "MD5": "c2e41d789e6fe956f12cb007af229918",
+            "path": "config/fancymenu/customization/AllInOne.txt"
           }
         },
         {
@@ -25659,9 +26594,9 @@
           "name": "en_us.local",
           "type": "File",
           "artifact": {
-            "size": 92185,
+            "size": 76468,
             "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/fancymenu/locals/en_us.local",
-            "MD5": "1500cd7480ddc700254ff3f597b1755e",
+            "MD5": "9744518a3407a773aff458f6f827ebfe",
             "path": "config/fancymenu/locals/en_us.local"
           }
         },
@@ -25710,14 +26645,36 @@
           }
         },
         {
-          "id": "user_variables.db",
-          "name": "user_variables.db",
+          "id": "farmersdelight-client.toml",
+          "name": "farmersdelight-client.toml",
           "type": "File",
           "artifact": {
-            "size": 40,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/fancymenu/user_variables.db",
-            "MD5": "eec0f310caf96daa823c26b23cdc031a",
-            "path": "config/fancymenu/user_variables.db"
+            "size": 359,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/farmersdelight-client.toml",
+            "MD5": "adc7d8a5486bf6e826beed4236fff5f5",
+            "path": "config/farmersdelight-client.toml"
+          }
+        },
+        {
+          "id": "farmersdelight-common.toml",
+          "name": "farmersdelight-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4058,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/farmersdelight-common.toml",
+            "MD5": "8a976f5dcea6ace424f7e42d6450174d",
+            "path": "config/farmersdelight-common.toml"
+          }
+        },
+        {
+          "id": "fastbench.cfg",
+          "name": "fastbench.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 143,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/fastbench.cfg",
+            "MD5": "de872f2a9ac353be044519bdd7b5ff50",
+            "path": "config/fastbench.cfg"
           }
         },
         {
@@ -25747,9 +26704,9 @@
           "name": "forge-client.toml",
           "type": "File",
           "artifact": {
-            "size": 1359,
+            "size": 1358,
             "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/forge-client.toml",
-            "MD5": "2a328473a1dad3fe96066051e5aa4249",
+            "MD5": "7f8be7c5a5bdc3d76cac6dc4bed6629b",
             "path": "config/forge-client.toml"
           }
         },
@@ -25758,10 +26715,21 @@
           "name": "forge-common.toml",
           "type": "File",
           "artifact": {
-            "size": 310,
+            "size": 334,
             "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/forge-common.toml",
-            "MD5": "94977d1b9c60ebe6f0cfc34c0bbaa8c8",
+            "MD5": "8638f1e6aa6651854d63de1fba7beb07",
             "path": "config/forge-common.toml"
+          }
+        },
+        {
+          "id": "forgivingvoid-common.toml",
+          "name": "forgivingvoid-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1551,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/forgivingvoid-common.toml",
+            "MD5": "5bb22d369b7f5a1c4d87cd6c9434a4f0",
+            "path": "config/forgivingvoid-common.toml"
           }
         },
         {
@@ -25776,47 +26744,300 @@
           }
         },
         {
-          "id": "hudcompass-client.toml",
-          "name": "hudcompass-client.toml",
+          "id": "chapter_groups.snbt",
+          "name": "chapter_groups.snbt",
           "type": "File",
           "artifact": {
-            "size": 1654,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/hudcompass-client.toml",
-            "MD5": "eea709211884304d0092a6a0c5c2e01a",
-            "path": "config/hudcompass-client.toml"
+            "size": 28,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/chapter_groups.snbt",
+            "MD5": "45bf725b255be56682eb92c63d66ebeb",
+            "path": "config/ftbquests/quests/chapter_groups.snbt"
           }
         },
         {
-          "id": "hudcompass-common.toml",
-          "name": "hudcompass-common.toml",
+          "id": "abyss.snbt",
+          "name": "abyss.snbt",
           "type": "File",
           "artifact": {
-            "size": 622,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/hudcompass-common.toml",
-            "MD5": "ab872b175e0501ceb10efc911af8e7a3",
-            "path": "config/hudcompass-common.toml"
+            "size": 5259,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/chapters/abyss.snbt",
+            "MD5": "bbd704a10a07b5ad224b8005ff9dbf26",
+            "path": "config/ftbquests/quests/chapters/abyss.snbt"
           }
         },
         {
-          "id": "immersive_portals-client.toml",
-          "name": "immersive_portals-client.toml",
+          "id": "all_in_one.snbt",
+          "name": "all_in_one.snbt",
           "type": "File",
           "artifact": {
-            "size": 829,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/immersive_portals-client.toml",
-            "MD5": "b6c13cf543064f27fe24808b5e463c7c",
-            "path": "config/immersive_portals-client.toml"
+            "size": 7994,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/chapters/all_in_one.snbt",
+            "MD5": "98a74cb0fb5f37aff1c766cb1ee4e99c",
+            "path": "config/ftbquests/quests/chapters/all_in_one.snbt"
           }
         },
         {
-          "id": "immersive_portals-common.toml",
-          "name": "immersive_portals-common.toml",
+          "id": "astral.snbt",
+          "name": "astral.snbt",
           "type": "File",
           "artifact": {
-            "size": 763,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/immersive_portals-common.toml",
-            "MD5": "96037e0d939c6d706c0b554e88d5b3b3",
-            "path": "config/immersive_portals-common.toml"
+            "size": 3772,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/chapters/astral.snbt",
+            "MD5": "30466205706f9881b40593102c7cffb7",
+            "path": "config/ftbquests/quests/chapters/astral.snbt"
+          }
+        },
+        {
+          "id": "bumblezone.snbt",
+          "name": "bumblezone.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 7011,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/chapters/bumblezone.snbt",
+            "MD5": "eb4c5406968941c87f46a80783bdac84",
+            "path": "config/ftbquests/quests/chapters/bumblezone.snbt"
+          }
+        },
+        {
+          "id": "combs.snbt",
+          "name": "combs.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 57945,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/chapters/combs.snbt",
+            "MD5": "fd72436f566745334737cdfe16dcaa99",
+            "path": "config/ftbquests/quests/chapters/combs.snbt"
+          }
+        },
+        {
+          "id": "dimensions.snbt",
+          "name": "dimensions.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 559,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/chapters/dimensions.snbt",
+            "MD5": "3dd0304a02900c32a867626415518468",
+            "path": "config/ftbquests/quests/chapters/dimensions.snbt"
+          }
+        },
+        {
+          "id": "end.snbt",
+          "name": "end.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 3203,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/chapters/end.snbt",
+            "MD5": "e6ca0ce43c9f21653f83cdc41113dcc6",
+            "path": "config/ftbquests/quests/chapters/end.snbt"
+          }
+        },
+        {
+          "id": "ex_nihilo.snbt",
+          "name": "ex_nihilo.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 7393,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/chapters/ex_nihilo.snbt",
+            "MD5": "0138e71095427e64c64897dfb8952f1e",
+            "path": "config/ftbquests/quests/chapters/ex_nihilo.snbt"
+          }
+        },
+        {
+          "id": "farmland.snbt",
+          "name": "farmland.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 13224,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/chapters/farmland.snbt",
+            "MD5": "11e7a9678648462959e64c110429dfcd",
+            "path": "config/ftbquests/quests/chapters/farmland.snbt"
+          }
+        },
+        {
+          "id": "flatland.snbt",
+          "name": "flatland.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 5998,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/chapters/flatland.snbt",
+            "MD5": "898fe53b500f4dc05d500dc839dfb8bd",
+            "path": "config/ftbquests/quests/chapters/flatland.snbt"
+          }
+        },
+        {
+          "id": "getting_started.snbt",
+          "name": "getting_started.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 1374,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/chapters/getting_started.snbt",
+            "MD5": "1bb5ed969d5e614b28b7676ec15f88bb",
+            "path": "config/ftbquests/quests/chapters/getting_started.snbt"
+          }
+        },
+        {
+          "id": "magicka.snbt",
+          "name": "magicka.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 11072,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/chapters/magicka.snbt",
+            "MD5": "08c80d59e2d8719d5e13344fe1400095",
+            "path": "config/ftbquests/quests/chapters/magicka.snbt"
+          }
+        },
+        {
+          "id": "nether.snbt",
+          "name": "nether.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 5721,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/chapters/nether.snbt",
+            "MD5": "d34afb6273c6bd59e59bb8f51debb813",
+            "path": "config/ftbquests/quests/chapters/nether.snbt"
+          }
+        },
+        {
+          "id": "overworld.snbt",
+          "name": "overworld.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 7366,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/chapters/overworld.snbt",
+            "MD5": "4e3b3181b8c0d7f3dd551770c30d4baa",
+            "path": "config/ftbquests/quests/chapters/overworld.snbt"
+          }
+        },
+        {
+          "id": "time_is_up.snbt",
+          "name": "time_is_up.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 3854,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/chapters/time_is_up.snbt",
+            "MD5": "b2bfda1a76d67d773b125c2dc3fcc88c",
+            "path": "config/ftbquests/quests/chapters/time_is_up.snbt"
+          }
+        },
+        {
+          "id": "underground.snbt",
+          "name": "underground.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 27101,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/chapters/underground.snbt",
+            "MD5": "c324105767e6ac8706948076cfb716a7",
+            "path": "config/ftbquests/quests/chapters/underground.snbt"
+          }
+        },
+        {
+          "id": "underground_2.snbt",
+          "name": "underground_2.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 19018,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/chapters/underground_2.snbt",
+            "MD5": "e1ea99cd00028b05dfa4460b0aeacd75",
+            "path": "config/ftbquests/quests/chapters/underground_2.snbt"
+          }
+        },
+        {
+          "id": "data.snbt",
+          "name": "data.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 396,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/data.snbt",
+            "MD5": "92dcf01c889093ab7e28b1d923f28279",
+            "path": "config/ftbquests/quests/data.snbt"
+          }
+        },
+        {
+          "id": "67.snbt",
+          "name": "67.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 282,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/ftbquests/quests/reward_tables/67.snbt",
+            "MD5": "65340adb94cc89eebf035a9a7090fc30",
+            "path": "config/ftbquests/quests/reward_tables/67.snbt"
+          }
+        },
+        {
+          "id": "gravestone-client.toml",
+          "name": "gravestone-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 217,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/gravestone-client.toml",
+            "MD5": "29a842816e0d789a3568f21342225b28",
+            "path": "config/gravestone-client.toml"
+          }
+        },
+        {
+          "id": "immersiveengineering-client.toml",
+          "name": "immersiveengineering-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2389,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/immersiveengineering-client.toml",
+            "MD5": "6f0bd9a74cb104ecbdf52596dc626cc6",
+            "path": "config/immersiveengineering-client.toml"
+          }
+        },
+        {
+          "id": "immersiveengineering-common.toml",
+          "name": "immersiveengineering-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1931,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/immersiveengineering-common.toml",
+            "MD5": "c0951ed71dbd962584d6e4cc59303cba",
+            "path": "config/immersiveengineering-common.toml"
+          }
+        },
+        {
+          "id": "insanelib-common.toml",
+          "name": "insanelib-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1519,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/insanelib-common.toml",
+            "MD5": "b714a4af9323ac4ea64a74a9fe934db4",
+            "path": "config/insanelib-common.toml"
+          }
+        },
+        {
+          "id": "ingredient-list-mod-sort-order.ini",
+          "name": "ingredient-list-mod-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 802,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/jei/ingredient-list-mod-sort-order.ini",
+            "MD5": "6bb7dc56ccc5384e134b882c98ea0616",
+            "path": "config/jei/ingredient-list-mod-sort-order.ini"
+          }
+        },
+        {
+          "id": "ingredient-list-type-sort-order.ini",
+          "name": "ingredient-list-type-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 447,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/jei/ingredient-list-type-sort-order.ini",
+            "MD5": "98770aa04b00350c981243231d85d09e",
+            "path": "config/jei/ingredient-list-type-sort-order.ini"
+          }
+        },
+        {
+          "id": "recipe-category-sort-order.ini",
+          "name": "recipe-category-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 3941,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/jei/recipe-category-sort-order.ini",
+            "MD5": "a216be29a509de094bf864e4b5bed511",
+            "path": "config/jei/recipe-category-sort-order.ini"
           }
         },
         {
@@ -25826,8 +27047,41 @@
           "artifact": {
             "size": 2927,
             "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/jei-client.toml",
-            "MD5": "5b49b8cf40d8faee2dea003eb5a11845",
+            "MD5": "e16d4cf5781400591648076780a13f33",
             "path": "config/jei-client.toml"
+          }
+        },
+        {
+          "id": "jeiintegration-client.toml",
+          "name": "jeiintegration-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 816,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/jeiintegration-client.toml",
+            "MD5": "f9ec8fe705d0a922c422ff2ea2b4c76c",
+            "path": "config/jeiintegration-client.toml"
+          }
+        },
+        {
+          "id": "jeresources-common.toml",
+          "name": "jeresources-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 236,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/jeresources-common.toml",
+            "MD5": "b8403bd156cd5a1adbeca3850c42384f",
+            "path": "config/jeresources-common.toml"
+          }
+        },
+        {
+          "id": "jeresources.toml",
+          "name": "jeresources.toml",
+          "type": "File",
+          "artifact": {
+            "size": 236,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/jeresources.toml",
+            "MD5": "b8403bd156cd5a1adbeca3850c42384f",
+            "path": "config/jeresources.toml"
           }
         },
         {
@@ -25875,47 +27129,366 @@
           }
         },
         {
-          "id": "mapperbase-client.toml",
-          "name": "mapperbase-client.toml",
+          "id": "lightoverlay.properties",
+          "name": "lightoverlay.properties",
           "type": "File",
           "artifact": {
-            "size": 339,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/mapperbase-client.toml",
-            "MD5": "7e255694064a634a4d3e28dc91ad70b0",
-            "path": "config/mapperbase-client.toml"
+            "size": 349,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/lightoverlay.properties",
+            "MD5": "00899ed328316a812c02781de3697062",
+            "path": "config/lightoverlay.properties"
           }
         },
         {
-          "id": "mapperbase-common.toml",
-          "name": "mapperbase-common.toml",
+          "id": "config.cfg",
+          "name": "config.cfg",
           "type": "File",
           "artifact": {
-            "size": 1674,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/mapperbase-common.toml",
-            "MD5": "f6abca2ab859f614d019b217cb56e96c",
-            "path": "config/mapperbase-common.toml"
+            "size": 79,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/loadmyresources/config.cfg",
+            "MD5": "d1d8051f7bab6317a6b749658580c4e3",
+            "path": "config/loadmyresources/config.cfg"
           }
         },
         {
-          "id": "neat-client.toml",
-          "name": "neat-client.toml",
+          "id": "mantle-client.toml",
+          "name": "mantle-client.toml",
           "type": "File",
           "artifact": {
-            "size": 991,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/neat-client.toml",
-            "MD5": "5fbd1f4bf3c0ab26389a8709ce8fdfd4",
-            "path": "config/neat-client.toml"
+            "size": 306,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/mantle-client.toml",
+            "MD5": "05101bea78d9ee1fc36dd51716cc541b",
+            "path": "config/mantle-client.toml"
           }
         },
         {
-          "id": "securitycraft-client.toml",
-          "name": "securitycraft-client.toml",
+          "id": "mcjtylib-client.toml",
+          "name": "mcjtylib-client.toml",
           "type": "File",
           "artifact": {
-            "size": 353,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/securitycraft-client.toml",
-            "MD5": "e287a59460850a31d1a708cfb0bdc271",
-            "path": "config/securitycraft-client.toml"
+            "size": 5763,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/mcjtylib-client.toml",
+            "MD5": "f2f61b91e7ca2f4a294a2a20d8335cf3",
+            "path": "config/mcjtylib-client.toml"
+          }
+        },
+        {
+          "id": "movingelevators-common.toml",
+          "name": "movingelevators-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 376,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/movingelevators-common.toml",
+            "MD5": "78c52650afefc93dca6f5b6338dda110",
+            "path": "config/movingelevators-common.toml"
+          }
+        },
+        {
+          "id": "mysticalagriculture-client.toml",
+          "name": "mysticalagriculture-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 137,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/mysticalagriculture-client.toml",
+            "MD5": "0cbee3889d8f27d3cbb53a9e081eb30c",
+            "path": "config/mysticalagriculture-client.toml"
+          }
+        },
+        {
+          "id": "mysticalagriculture-common.toml",
+          "name": "mysticalagriculture-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2769,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/mysticalagriculture-common.toml",
+            "MD5": "b8783448b2304ee97c2ecb6bf6e3738e",
+            "path": "config/mysticalagriculture-common.toml"
+          }
+        },
+        {
+          "id": "guaranteeds.nbt",
+          "name": "guaranteeds.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 8049,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/oneblock/guaranteed/guaranteeds.nbt",
+            "MD5": "4a554f5fbe052c40c61f07c2558baa2c",
+            "path": "config/oneblock/guaranteed/guaranteeds.nbt"
+          }
+        },
+        {
+          "id": "-1.nbt",
+          "name": "-1.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 440,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/oneblock/phases/-1.nbt",
+            "MD5": "319c4c2c1b9d4ea56c332abcfda65bf7",
+            "path": "config/oneblock/phases/-1.nbt"
+          }
+        },
+        {
+          "id": "0.nbt",
+          "name": "0.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 6425,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/oneblock/phases/0.nbt",
+            "MD5": "8ad5e499785e2b295cd7cf31aa62b4b7",
+            "path": "config/oneblock/phases/0.nbt"
+          }
+        },
+        {
+          "id": "1800.nbt",
+          "name": "1800.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 837,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/oneblock/phases/1800.nbt",
+            "MD5": "4cca3bd7fd1356a860329cec7ccdfe7e",
+            "path": "config/oneblock/phases/1800.nbt"
+          }
+        },
+        {
+          "id": "200.nbt",
+          "name": "200.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 2307,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/oneblock/phases/200.nbt",
+            "MD5": "5767c269a615f002de3e64664bb6b5c2",
+            "path": "config/oneblock/phases/200.nbt"
+          }
+        },
+        {
+          "id": "2000.nbt",
+          "name": "2000.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 1751,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/oneblock/phases/2000.nbt",
+            "MD5": "0beebe27cf5257b2fbc0c8a2f6b28d6a",
+            "path": "config/oneblock/phases/2000.nbt"
+          }
+        },
+        {
+          "id": "2200.nbt",
+          "name": "2200.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 1571,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/oneblock/phases/2200.nbt",
+            "MD5": "8f54282c073e86eed2715f34c2f5785c",
+            "path": "config/oneblock/phases/2200.nbt"
+          }
+        },
+        {
+          "id": "300.nbt",
+          "name": "300.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 10099,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/oneblock/phases/300.nbt",
+            "MD5": "b8925fbb15818378f91b5766cb145458",
+            "path": "config/oneblock/phases/300.nbt"
+          }
+        },
+        {
+          "id": "3000.nbt",
+          "name": "3000.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 1842,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/oneblock/phases/3000.nbt",
+            "MD5": "3a110a5829c56b11f13ba956e40cbe88",
+            "path": "config/oneblock/phases/3000.nbt"
+          }
+        },
+        {
+          "id": "3800.nbt",
+          "name": "3800.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 6087,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/oneblock/phases/3800.nbt",
+            "MD5": "8452650802e71b92020be06ca6628c6b",
+            "path": "config/oneblock/phases/3800.nbt"
+          }
+        },
+        {
+          "id": "4200.nbt",
+          "name": "4200.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 2658,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/oneblock/phases/4200.nbt",
+            "MD5": "371f9b538bb5b06ae99675d8c8a54d57",
+            "path": "config/oneblock/phases/4200.nbt"
+          }
+        },
+        {
+          "id": "5000.nbt",
+          "name": "5000.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 2685,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/oneblock/phases/5000.nbt",
+            "MD5": "ec4837a0c2d52031e486c49a46940df2",
+            "path": "config/oneblock/phases/5000.nbt"
+          }
+        },
+        {
+          "id": "5800.nbt",
+          "name": "5800.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 655,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/oneblock/phases/5800.nbt",
+            "MD5": "d0d93fd71af76e89edb8ef934e2cf3ed",
+            "path": "config/oneblock/phases/5800.nbt"
+          }
+        },
+        {
+          "id": "900.nbt",
+          "name": "900.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 27400,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/oneblock/phases/900.nbt",
+            "MD5": "af527b2b571730884bea73673291eb0f",
+            "path": "config/oneblock/phases/900.nbt"
+          }
+        },
+        {
+          "id": "oneblock-common.toml",
+          "name": "oneblock-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1698,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/oneblock-common.toml",
+            "MD5": "5638eb0d304aee4ce64cf9b1ba2a96f7",
+            "path": "config/oneblock-common.toml"
+          }
+        },
+        {
+          "id": "patchouli-client.toml",
+          "name": "patchouli-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1020,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/patchouli-client.toml",
+            "MD5": "e86d459d398190ec8fb9f90346f5a755",
+            "path": "config/patchouli-client.toml"
+          }
+        },
+        {
+          "id": "polymorph-integrations.toml",
+          "name": "polymorph-integrations.toml",
+          "type": "File",
+          "artifact": {
+            "size": 441,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/polymorph-integrations.toml",
+            "MD5": "cf8a06381e3d632254ec3132cebcec61",
+            "path": "config/polymorph-integrations.toml"
+          }
+        },
+        {
+          "id": "modules.toml",
+          "name": "modules.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/portality/modules.toml",
+            "MD5": "81051bcc2cf1bedf378224b0a93e2877",
+            "path": "config/portality/modules.toml"
+          }
+        },
+        {
+          "id": "portality.toml",
+          "name": "portality.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1258,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/portality/portality.toml",
+            "MD5": "f5089bd3689b8c9c15546781fdae5ba4",
+            "path": "config/portality/portality.toml"
+          }
+        },
+        {
+          "id": "productivebees-client.toml",
+          "name": "productivebees-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 293,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/productivebees-client.toml",
+            "MD5": "7eaf1ede5bfb2506d4f67d3e85711e83",
+            "path": "config/productivebees-client.toml"
+          }
+        },
+        {
+          "id": "progressivebosses-common.toml",
+          "name": "progressivebosses-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 25824,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/progressivebosses-common.toml",
+            "MD5": "a9d4b86625ea37daa2dd5551536c72d6",
+            "path": "config/progressivebosses-common.toml"
+          }
+        },
+        {
+          "id": "quark-common.toml",
+          "name": "quark-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 79419,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/quark-common.toml",
+            "MD5": "0c5a946afcfb592955b256884b57202a",
+            "path": "config/quark-common.toml"
+          }
+        },
+        {
+          "id": "randomlib-common.toml",
+          "name": "randomlib-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/randomlib-common.toml",
+            "MD5": "81051bcc2cf1bedf378224b0a93e2877",
+            "path": "config/randomlib-common.toml"
+          }
+        },
+        {
+          "id": "refinedstorage-client.toml",
+          "name": "refinedstorage-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 831,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/refinedstorage-client.toml",
+            "MD5": "2e0b00535a3f1234f813d9e4fad477e0",
+            "path": "config/refinedstorage-client.toml"
+          }
+        },
+        {
+          "id": "rftoolsbase-common.toml",
+          "name": "rftoolsbase-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 931,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/rftoolsbase-common.toml",
+            "MD5": "10c7ed63b4cf99b6aae6f1121efc4b50",
+            "path": "config/rftoolsbase-common.toml"
+          }
+        },
+        {
+          "id": "rftoolsbuilder-client.toml",
+          "name": "rftoolsbuilder-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 780,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/rftoolsbuilder-client.toml",
+            "MD5": "ad272867532080420db7210856992ae1",
+            "path": "config/rftoolsbuilder-client.toml"
           }
         },
         {
@@ -25923,10 +27496,120 @@
           "name": "sidebar_buttons.json",
           "type": "File",
           "artifact": {
-            "size": 236,
+            "size": 229,
             "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/sidebar_buttons.json",
-            "MD5": "534fc8b957b455d42f86614068b27f4f",
+            "MD5": "0243d23546047e04f7a11b1987435a18",
             "path": "config/sidebar_buttons.json"
+          }
+        },
+        {
+          "id": "silentgear-client.toml",
+          "name": "silentgear-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 452,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/silentgear-client.toml",
+            "MD5": "4d91b1e2b9d63f0a9dc27421f45175cb",
+            "path": "config/silentgear-client.toml"
+          }
+        },
+        {
+          "id": "silentgear-common.toml",
+          "name": "silentgear-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 8408,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/silentgear-common.toml",
+            "MD5": "152e242609836f1b1fb55be92f60b32d",
+            "path": "config/silentgear-common.toml"
+          }
+        },
+        {
+          "id": "silentgems-common.toml",
+          "name": "silentgems-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 10500,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/silentgems-common.toml",
+            "MD5": "01c28adf0ab48e9624c46cf5ba6d8d52",
+            "path": "config/silentgems-common.toml"
+          }
+        },
+        {
+          "id": "simple-rpc.toml",
+          "name": "simple-rpc.toml",
+          "type": "File",
+          "artifact": {
+            "size": 7654,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/simple-rpc.toml",
+            "MD5": "fa7450d6babc00e2c1e70c0c637064bd",
+            "path": "config/simple-rpc.toml"
+          }
+        },
+        {
+          "id": "common-config.json5",
+          "name": "common-config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 7772,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/skyblockbuilder/common-config.json5",
+            "MD5": "a3776e62850b9da76781f52af053c33b",
+            "path": "config/skyblockbuilder/common-config.json5"
+          }
+        },
+        {
+          "id": "features.txt",
+          "name": "features.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3558,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/skyblockbuilder/features.txt",
+            "MD5": "b5ac53a5162f79aeceb4d6a47c5915da",
+            "path": "config/skyblockbuilder/features.txt"
+          }
+        },
+        {
+          "id": "spawns.json",
+          "name": "spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 65,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/skyblockbuilder/spawns.json",
+            "MD5": "d3eabfd79872f13dc8545f9dc9256a89",
+            "path": "config/skyblockbuilder/spawns.json"
+          }
+        },
+        {
+          "id": "starter_item.json",
+          "name": "starter_item.json",
+          "type": "File",
+          "artifact": {
+            "size": 78,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/skyblockbuilder/starter_item.json",
+            "MD5": "da96d03357d462a7616335bc55c7a2e5",
+            "path": "config/skyblockbuilder/starter_item.json"
+          }
+        },
+        {
+          "id": "structures.txt",
+          "name": "structures.txt",
+          "type": "File",
+          "artifact": {
+            "size": 748,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/skyblockbuilder/structures.txt",
+            "MD5": "7518facd6b8ac1a16e57154289f11953",
+            "path": "config/skyblockbuilder/structures.txt"
+          }
+        },
+        {
+          "id": "template.nbt",
+          "name": "template.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 1060,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/skyblockbuilder/template.nbt",
+            "MD5": "515706f2118914895498a55c0fa69ec2",
+            "path": "config/skyblockbuilder/template.nbt"
           }
         },
         {
@@ -25952,25 +27635,256 @@
           }
         },
         {
-          "id": "vehicle-client.toml",
-          "name": "vehicle-client.toml",
+          "id": "tconstruct-client.toml",
+          "name": "tconstruct-client.toml",
           "type": "File",
           "artifact": {
-            "size": 1800,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/vehicle-client.toml",
-            "MD5": "1d6b2902bf4ba586c8aa924754905e17",
-            "path": "config/vehicle-client.toml"
+            "size": 2130,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/tconstruct-client.toml",
+            "MD5": "7d9188d30ce23a748079ee9963296b30",
+            "path": "config/tconstruct-client.toml"
           }
         },
         {
-          "id": "yungsbridges-forge-1_16.toml",
-          "name": "yungsbridges-forge-1_16.toml",
+          "id": "tconstruct-common.toml",
+          "name": "tconstruct-common.toml",
           "type": "File",
           "artifact": {
-            "size": 1577,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/yungsbridges-forge-1_16.toml",
-            "MD5": "5e48cea6743cdbc124e5641b5a5e1d9b",
-            "path": "config/yungsbridges-forge-1_16.toml"
+            "size": 5354,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/tconstruct-common.toml",
+            "MD5": "99031a06775d472495ec4245d3f97e88",
+            "path": "config/tconstruct-common.toml"
+          }
+        },
+        {
+          "id": "bee_aggression.toml",
+          "name": "bee_aggression.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3417,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/the_bumblezone/bee_aggression.toml",
+            "MD5": "4b906d3042162e3f164d850b98dee825",
+            "path": "config/the_bumblezone/bee_aggression.toml"
+          }
+        },
+        {
+          "id": "client.toml",
+          "name": "client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 400,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/the_bumblezone/client.toml",
+            "MD5": "b72801926480dc1a6ebdb4cbd2eb1e9b",
+            "path": "config/the_bumblezone/client.toml"
+          }
+        },
+        {
+          "id": "dimension.toml",
+          "name": "dimension.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3257,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/the_bumblezone/dimension.toml",
+            "MD5": "49e9f0fc2121b112483459342d01a5fa",
+            "path": "config/the_bumblezone/dimension.toml"
+          }
+        },
+        {
+          "id": "general.toml",
+          "name": "general.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1025,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/the_bumblezone/general.toml",
+            "MD5": "bd7521947eec92448ec357c442aa1fb5",
+            "path": "config/the_bumblezone/general.toml"
+          }
+        },
+        {
+          "id": "mod_compatibility.toml",
+          "name": "mod_compatibility.toml",
+          "type": "File",
+          "artifact": {
+            "size": 10027,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/the_bumblezone/mod_compatibility.toml",
+            "MD5": "20b003eaa9ef9d6f975d8e9266f0000d",
+            "path": "config/the_bumblezone/mod_compatibility.toml"
+          }
+        },
+        {
+          "id": "worldgen.toml",
+          "name": "worldgen.toml",
+          "type": "File",
+          "artifact": {
+            "size": 806,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/the_bumblezone/worldgen.toml",
+            "MD5": "6933d58a899e47a9891536880f35b634",
+            "path": "config/the_bumblezone/worldgen.toml"
+          }
+        },
+        {
+          "id": "the_bumblezone-mod_compatibility.toml",
+          "name": "the_bumblezone-mod_compatibility.toml",
+          "type": "File",
+          "artifact": {
+            "size": 9041,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/the_bumblezone-mod_compatibility.toml",
+            "MD5": "ec246fc043820abeef65fabd314ad31a",
+            "path": "config/the_bumblezone-mod_compatibility.toml"
+          }
+        },
+        {
+          "id": "timeisup-client.toml",
+          "name": "timeisup-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 242,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/timeisup-client.toml",
+            "MD5": "dc237b3cc59130278996d4da3efe4870",
+            "path": "config/timeisup-client.toml"
+          }
+        },
+        {
+          "id": "timeisup-common.toml",
+          "name": "timeisup-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3754,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/timeisup-common.toml",
+            "MD5": "2dbb725cb3b5fe548dd0cd433062b1c3",
+            "path": "config/timeisup-common.toml"
+          }
+        },
+        {
+          "id": "tinymobfarm.toml",
+          "name": "tinymobfarm.toml",
+          "type": "File",
+          "artifact": {
+            "size": 237,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/tinymobfarm.toml",
+            "MD5": "0ce25d026c725a385253b7da41eded15",
+            "path": "config/tinymobfarm.toml"
+          }
+        },
+        {
+          "id": "modules.toml",
+          "name": "modules.toml",
+          "type": "File",
+          "artifact": {
+            "size": 160,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/titanium/modules.toml",
+            "MD5": "643b892dc55c42a49d8a62506f51b7e4",
+            "path": "config/titanium/modules.toml"
+          }
+        },
+        {
+          "id": "resources.toml",
+          "name": "resources.toml",
+          "type": "File",
+          "artifact": {
+            "size": 57,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/titanium/resources.toml",
+            "MD5": "ef1a861d1951c2530013c74205652686",
+            "path": "config/titanium/resources.toml"
+          }
+        },
+        {
+          "id": "titanium-tags.toml",
+          "name": "titanium-tags.toml",
+          "type": "File",
+          "artifact": {
+            "size": 348,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/titanium/titanium-tags.toml",
+            "MD5": "2ad714bfa6e086cac5efcfcd55b48b52",
+            "path": "config/titanium/titanium-tags.toml"
+          }
+        },
+        {
+          "id": "titanium.toml",
+          "name": "titanium.toml",
+          "type": "File",
+          "artifact": {
+            "size": 259,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/titanium/titanium.toml",
+            "MD5": "f7517ff15e69c26baef646e6ac42a4ab",
+            "path": "config/titanium/titanium.toml"
+          }
+        },
+        {
+          "id": "waila.json",
+          "name": "waila.json",
+          "type": "File",
+          "artifact": {
+            "size": 1079,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/waila/waila.json",
+            "MD5": "aec6ccbc7fd32da49711b8062643f1ae",
+            "path": "config/waila/waila.json"
+          }
+        },
+        {
+          "id": "waila_plugins.json",
+          "name": "waila_plugins.json",
+          "type": "File",
+          "artifact": {
+            "size": 637,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/waila/waila_plugins.json",
+            "MD5": "a5156ef97f8eccdbaecb241bad97655d",
+            "path": "config/waila/waila_plugins.json"
+          }
+        },
+        {
+          "id": "xaerominimap.txt",
+          "name": "xaerominimap.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2553,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/xaerominimap.txt",
+            "MD5": "195231314d1fcb4faadecef0227e11d2",
+            "path": "config/xaerominimap.txt"
+          }
+        },
+        {
+          "id": "xaerominimap_entities.json",
+          "name": "xaerominimap_entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 4106,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/xaerominimap_entities.json",
+            "MD5": "aec09d4667be4efeb047439a67e097c0",
+            "path": "config/xaerominimap_entities.json"
+          }
+        },
+        {
+          "id": "xaeropatreon.txt",
+          "name": "xaeropatreon.txt",
+          "type": "File",
+          "artifact": {
+            "size": 16,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/xaeropatreon.txt",
+            "MD5": "82f395c2aa8d41d4e8d8bdfde7044b3c",
+            "path": "config/xaeropatreon.txt"
+          }
+        },
+        {
+          "id": "xnet-client.toml",
+          "name": "xnet-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 162,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/xnet-client.toml",
+            "MD5": "430c1c47a50f47905478ee8c998a6b4c",
+            "path": "config/xnet-client.toml"
+          }
+        },
+        {
+          "id": "xnetgases.toml",
+          "name": "xnetgases.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1086,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/config/xnetgases.toml",
+            "MD5": "1319a6f7d4f2f3c93074d5964554fc66",
+            "path": "config/xnetgases.toml"
           }
         },
         {
@@ -25978,98 +27892,1044 @@
           "name": "last_world.fmdata",
           "type": "File",
           "artifact": {
-            "size": 66,
+            "size": 86,
             "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/fancymenu_data/last_world.fmdata",
-            "MD5": "ffb7dad647c44ed0d395e6f3c92acae4",
+            "MD5": "3cf0da6a3e7a1851872b2e4c0d81a699",
             "path": "fancymenu_data/last_world.fmdata"
           }
         },
         {
-          "id": "bank.png",
-          "name": "bank.png",
+          "id": "README.txt",
+          "name": "README.txt",
           "type": "File",
           "artifact": {
-            "size": 352,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/ressources/bank.png",
-            "MD5": "9076dd0797f6a5d30ef391b302e93c60",
-            "path": "ressources/bank.png"
+            "size": 1215,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/README.txt",
+            "MD5": "638fb5f312af853817b1ab71939c2de0",
+            "path": "kubejs/README.txt"
           }
         },
         {
-          "id": "board.png",
-          "name": "board.png",
+          "id": "en_us.json",
+          "name": "en_us.json",
           "type": "File",
           "artifact": {
-            "size": 43774,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/ressources/board.png",
-            "MD5": "0ac875caf5e9e480311954f117abd493",
-            "path": "ressources/board.png"
+            "size": 1388,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/kubejs/lang/en_us.json",
+            "MD5": "9c012762b84f3c73b77d1cd3ebe568f8",
+            "path": "kubejs/assets/kubejs/lang/en_us.json"
           }
         },
         {
-          "id": "board2.png",
-          "name": "board2.png",
+          "id": "example_block.png",
+          "name": "example_block.png",
           "type": "File",
           "artifact": {
-            "size": 1288,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/ressources/board2.png",
-            "MD5": "143332fb8af909d80c1fd539650fd4ee",
-            "path": "ressources/board2.png"
+            "size": 247,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/kubejs/textures/block/example_block.png",
+            "MD5": "4f2cf24a9f5a4c9ded2bc7c9a792355c",
+            "path": "kubejs/assets/kubejs/textures/block/example_block.png"
           }
         },
         {
-          "id": "corbeille.png",
-          "name": "corbeille.png",
+          "id": "example_item.png",
+          "name": "example_item.png",
           "type": "File",
           "artifact": {
-            "size": 320,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/ressources/corbeille.png",
-            "MD5": "7906edcce0874c1c7ca5fdeea6cedef4",
-            "path": "ressources/corbeille.png"
+            "size": 372,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/kubejs/textures/item/example_item.png",
+            "MD5": "d948c51230a1fbd8b7b27b7d0fa0dce6",
+            "path": "kubejs/assets/kubejs/textures/item/example_item.png"
           }
         },
         {
-          "id": "logo_grand.png",
-          "name": "logo_grand.png",
+          "id": "arcane_gold.json",
+          "name": "arcane_gold.json",
           "type": "File",
           "artifact": {
-            "size": 118014,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/ressources/logo_grand.png",
-            "MD5": "e4e6137fcb96de6ded03628edabf5cd7",
-            "path": "ressources/logo_grand.png"
+            "size": 1271,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/silentgear/silentgear_materials/arcane_gold.json",
+            "MD5": "467e420c9169d92ca4ecc1d57e002214",
+            "path": "kubejs/assets/silentgear/silentgear_materials/arcane_gold.json"
           }
         },
         {
-          "id": "logo_normal.png",
-          "name": "logo_normal.png",
+          "id": "gaia_spirit.json",
+          "name": "gaia_spirit.json",
           "type": "File",
           "artifact": {
-            "size": 99233,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/ressources/logo_normal.png",
-            "MD5": "15a904db3dd0cc331f26d7856973374d",
-            "path": "ressources/logo_normal.png"
+            "size": 607,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/silentgear/silentgear_materials/gaia_spirit.json",
+            "MD5": "f861c44c761df6cddbb1d4fcd5116835",
+            "path": "kubejs/assets/silentgear/silentgear_materials/gaia_spirit.json"
           }
         },
         {
-          "id": "logo_survie.png",
-          "name": "logo_survie.png",
+          "id": "imperium.json",
+          "name": "imperium.json",
           "type": "File",
           "artifact": {
-            "size": 75313,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/ressources/logo_survie.png",
-            "MD5": "2fb8f07c62055fdd440cb239eadeec3e",
-            "path": "ressources/logo_survie.png"
+            "size": 1315,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/silentgear/silentgear_materials/imperium.json",
+            "MD5": "c137e81aa255c885d4a689dadc814ca3",
+            "path": "kubejs/assets/silentgear/silentgear_materials/imperium.json"
           }
         },
         {
-          "id": "none.png",
-          "name": "none.png",
+          "id": "inferium.json",
+          "name": "inferium.json",
           "type": "File",
           "artifact": {
-            "size": 220982,
-            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/ressources/none.png",
-            "MD5": "fcb1fe6958dcbc759e67797e8b40deea",
-            "path": "ressources/none.png"
+            "size": 1315,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/silentgear/silentgear_materials/inferium.json",
+            "MD5": "3b565346e1529ec198e5880cede7fe97",
+            "path": "kubejs/assets/silentgear/silentgear_materials/inferium.json"
+          }
+        },
+        {
+          "id": "mana_gem.json",
+          "name": "mana_gem.json",
+          "type": "File",
+          "artifact": {
+            "size": 1317,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/silentgear/silentgear_materials/mana_gem.json",
+            "MD5": "f974402344122b884d54b151da65a176",
+            "path": "kubejs/assets/silentgear/silentgear_materials/mana_gem.json"
+          }
+        },
+        {
+          "id": "neptunium.json",
+          "name": "neptunium.json",
+          "type": "File",
+          "artifact": {
+            "size": 1315,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/silentgear/silentgear_materials/neptunium.json",
+            "MD5": "5dad8f81a569ec2aa95dc80563fdc4fb",
+            "path": "kubejs/assets/silentgear/silentgear_materials/neptunium.json"
+          }
+        },
+        {
+          "id": "pewter.json",
+          "name": "pewter.json",
+          "type": "File",
+          "artifact": {
+            "size": 539,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/silentgear/silentgear_materials/pewter.json",
+            "MD5": "2e53e0993e48138b3606650eb3ee902d",
+            "path": "kubejs/assets/silentgear/silentgear_materials/pewter.json"
+          }
+        },
+        {
+          "id": "prudentium.json",
+          "name": "prudentium.json",
+          "type": "File",
+          "artifact": {
+            "size": 1315,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/silentgear/silentgear_materials/prudentium.json",
+            "MD5": "820be6e144aeb26bcd1a895cb5bf3ac0",
+            "path": "kubejs/assets/silentgear/silentgear_materials/prudentium.json"
+          }
+        },
+        {
+          "id": "starmetal.json",
+          "name": "starmetal.json",
+          "type": "File",
+          "artifact": {
+            "size": 976,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/silentgear/silentgear_materials/starmetal.json",
+            "MD5": "014991ab002400267b47931de5e8b113",
+            "path": "kubejs/assets/silentgear/silentgear_materials/starmetal.json"
+          }
+        },
+        {
+          "id": "supremium.json",
+          "name": "supremium.json",
+          "type": "File",
+          "artifact": {
+            "size": 1315,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/silentgear/silentgear_materials/supremium.json",
+            "MD5": "0dd7764830816fd42e2f17fba38b2198",
+            "path": "kubejs/assets/silentgear/silentgear_materials/supremium.json"
+          }
+        },
+        {
+          "id": "tertium.json",
+          "name": "tertium.json",
+          "type": "File",
+          "artifact": {
+            "size": 1315,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/silentgear/silentgear_materials/tertium.json",
+            "MD5": "2494957a7e509b03235be38186f28fd6",
+            "path": "kubejs/assets/silentgear/silentgear_materials/tertium.json"
+          }
+        },
+        {
+          "id": "end_fiber.json",
+          "name": "end_fiber.json",
+          "type": "File",
+          "artifact": {
+            "size": 240,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/tconstruct/book/encyclopedia/en_us/slotless/bonus/end_fiber.json",
+            "MD5": "1e9221b49965d6933548b57a31186845",
+            "path": "kubejs/assets/tconstruct/book/encyclopedia/en_us/slotless/bonus/end_fiber.json"
+          }
+        },
+        {
+          "id": "gaia_influenced.json",
+          "name": "gaia_influenced.json",
+          "type": "File",
+          "artifact": {
+            "size": 234,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/tconstruct/book/encyclopedia/en_us/slotless/bonus/gaia_influenced.json",
+            "MD5": "6add0b9c4efac0146101d87a445c5296",
+            "path": "kubejs/assets/tconstruct/book/encyclopedia/en_us/slotless/bonus/gaia_influenced.json"
+          }
+        },
+        {
+          "id": "irradiant.json",
+          "name": "irradiant.json",
+          "type": "File",
+          "artifact": {
+            "size": 238,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/tconstruct/book/encyclopedia/en_us/slotless/bonus/irradiant.json",
+            "MD5": "525fe258e99199f89dee747ab371f259",
+            "path": "kubejs/assets/tconstruct/book/encyclopedia/en_us/slotless/bonus/irradiant.json"
+          }
+        },
+        {
+          "id": "slotless.json",
+          "name": "slotless.json",
+          "type": "File",
+          "artifact": {
+            "size": 1230,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/tconstruct/book/encyclopedia/sections/slotless.json",
+            "MD5": "1a2b942d317d9fcb5661ac562d72aa99",
+            "path": "kubejs/assets/tconstruct/book/encyclopedia/sections/slotless.json"
+          }
+        },
+        {
+          "id": "en_us.json",
+          "name": "en_us.json",
+          "type": "File",
+          "artifact": {
+            "size": 1040,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/tconstruct/lang/en_us.json",
+            "MD5": "2edf5b513a06f1a5b650c7d185fcbb1d",
+            "path": "kubejs/assets/tconstruct/lang/en_us.json"
+          }
+        },
+        {
+          "id": "imperium.json",
+          "name": "imperium.json",
+          "type": "File",
+          "artifact": {
+            "size": 58,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/tconstruct/models/tool_materials/imperium.json",
+            "MD5": "ef8973e8bd937d3da4dabe13b45cddaa",
+            "path": "kubejs/assets/tconstruct/models/tool_materials/imperium.json"
+          }
+        },
+        {
+          "id": "inferium.json",
+          "name": "inferium.json",
+          "type": "File",
+          "artifact": {
+            "size": 58,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/tconstruct/models/tool_materials/inferium.json",
+            "MD5": "2c57ec7011649882d9a4ded4f35f9be8",
+            "path": "kubejs/assets/tconstruct/models/tool_materials/inferium.json"
+          }
+        },
+        {
+          "id": "prudentium.json",
+          "name": "prudentium.json",
+          "type": "File",
+          "artifact": {
+            "size": 58,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/tconstruct/models/tool_materials/prudentium.json",
+            "MD5": "95a00651124acdd8d27c654652b7ab67",
+            "path": "kubejs/assets/tconstruct/models/tool_materials/prudentium.json"
+          }
+        },
+        {
+          "id": "supremium.json",
+          "name": "supremium.json",
+          "type": "File",
+          "artifact": {
+            "size": 58,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/tconstruct/models/tool_materials/supremium.json",
+            "MD5": "a7e8d16e359b7a83e5bee00830af30fd",
+            "path": "kubejs/assets/tconstruct/models/tool_materials/supremium.json"
+          }
+        },
+        {
+          "id": "tertium.json",
+          "name": "tertium.json",
+          "type": "File",
+          "artifact": {
+            "size": 58,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/assets/tconstruct/models/tool_materials/tertium.json",
+            "MD5": "80393d0c2cfd5276f806050c0d26b2f8",
+            "path": "kubejs/assets/tconstruct/models/tool_materials/tertium.json"
+          }
+        },
+        {
+          "id": "information.js",
+          "name": "information.js",
+          "type": "File",
+          "artifact": {
+            "size": 676,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/client_scripts/information.js",
+            "MD5": "f568c455180e295f47afea603181170e",
+            "path": "kubejs/client_scripts/information.js"
+          }
+        },
+        {
+          "id": "client.properties",
+          "name": "client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 350,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/config/client.properties",
+            "MD5": "ab796d18001a460014a59c9a00adb9be",
+            "path": "kubejs/config/client.properties"
+          }
+        },
+        {
+          "id": "common.properties",
+          "name": "common.properties",
+          "type": "File",
+          "artifact": {
+            "size": 163,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/config/common.properties",
+            "MD5": "207e961f6c18fec8f2dcbae8596862c7",
+            "path": "kubejs/config/common.properties"
+          }
+        },
+        {
+          "id": "neptunes_bounty.json",
+          "name": "neptunes_bounty.json",
+          "type": "File",
+          "artifact": {
+            "size": 4589,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/aquaculture/loot_tables/box/neptunes_bounty.json",
+            "MD5": "a5d0ce212e081db06efc56137cf4729d",
+            "path": "kubejs/data/aquaculture/loot_tables/box/neptunes_bounty.json"
+          }
+        },
+        {
+          "id": "apatite.json",
+          "name": "apatite.json",
+          "type": "File",
+          "artifact": {
+            "size": 1252,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/mysticalagriculture/recipes/crops/apatite.json",
+            "MD5": "58dcaa03bef7b266a3370d5b9d3b4785",
+            "path": "kubejs/data/mysticalagriculture/recipes/crops/apatite.json"
+          }
+        },
+        {
+          "id": "cobalt.json",
+          "name": "cobalt.json",
+          "type": "File",
+          "artifact": {
+            "size": 1245,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/mysticalagriculture/recipes/crops/cobalt.json",
+            "MD5": "18fbfb5f5f243d74845c0907a1ea85b7",
+            "path": "kubejs/data/mysticalagriculture/recipes/crops/cobalt.json"
+          }
+        },
+        {
+          "id": "fluorite.json",
+          "name": "fluorite.json",
+          "type": "File",
+          "artifact": {
+            "size": 1255,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/mysticalagriculture/recipes/crops/fluorite.json",
+            "MD5": "f08f821567198cc2e1db9690fe0906bc",
+            "path": "kubejs/data/mysticalagriculture/recipes/crops/fluorite.json"
+          }
+        },
+        {
+          "id": "hepatizon.json",
+          "name": "hepatizon.json",
+          "type": "File",
+          "artifact": {
+            "size": 1261,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/mysticalagriculture/recipes/crops/hepatizon.json",
+            "MD5": "f5284662ea697a24f67e3ba977e20021",
+            "path": "kubejs/data/mysticalagriculture/recipes/crops/hepatizon.json"
+          }
+        },
+        {
+          "id": "manasteel.json",
+          "name": "manasteel.json",
+          "type": "File",
+          "artifact": {
+            "size": 1259,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/mysticalagriculture/recipes/crops/manasteel.json",
+            "MD5": "cdfb929be9b91bae02d5f0388388f922",
+            "path": "kubejs/data/mysticalagriculture/recipes/crops/manasteel.json"
+          }
+        },
+        {
+          "id": "manyullyn.json",
+          "name": "manyullyn.json",
+          "type": "File",
+          "artifact": {
+            "size": 1261,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/mysticalagriculture/recipes/crops/manyullyn.json",
+            "MD5": "c17d32b901fb58ae1a8b69c119932b83",
+            "path": "kubejs/data/mysticalagriculture/recipes/crops/manyullyn.json"
+          }
+        },
+        {
+          "id": "marble.json",
+          "name": "marble.json",
+          "type": "File",
+          "artifact": {
+            "size": 1247,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/mysticalagriculture/recipes/crops/marble.json",
+            "MD5": "e675c07d3c851257d5a84a39d3060f58",
+            "path": "kubejs/data/mysticalagriculture/recipes/crops/marble.json"
+          }
+        },
+        {
+          "id": "pig_iron.json",
+          "name": "pig_iron.json",
+          "type": "File",
+          "artifact": {
+            "size": 1254,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/mysticalagriculture/recipes/crops/pig_iron.json",
+            "MD5": "1e4e31f2bb09cad8bb16ee256feefcd1",
+            "path": "kubejs/data/mysticalagriculture/recipes/crops/pig_iron.json"
+          }
+        },
+        {
+          "id": "queens_slime.json",
+          "name": "queens_slime.json",
+          "type": "File",
+          "artifact": {
+            "size": 1276,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/mysticalagriculture/recipes/crops/queens_slime.json",
+            "MD5": "c8ccd59f117e7c26f442f9025f9f1f11",
+            "path": "kubejs/data/mysticalagriculture/recipes/crops/queens_slime.json"
+          }
+        },
+        {
+          "id": "rose_gold.json",
+          "name": "rose_gold.json",
+          "type": "File",
+          "artifact": {
+            "size": 1260,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/mysticalagriculture/recipes/crops/rose_gold.json",
+            "MD5": "eb00e1591d00d1c1f672808e120fd167",
+            "path": "kubejs/data/mysticalagriculture/recipes/crops/rose_gold.json"
+          }
+        },
+        {
+          "id": "ruby.json",
+          "name": "ruby.json",
+          "type": "File",
+          "artifact": {
+            "size": 1235,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/mysticalagriculture/recipes/crops/ruby.json",
+            "MD5": "2c8f603fdd1c7c1522314adb5592535d",
+            "path": "kubejs/data/mysticalagriculture/recipes/crops/ruby.json"
+          }
+        },
+        {
+          "id": "sapphire.json",
+          "name": "sapphire.json",
+          "type": "File",
+          "artifact": {
+            "size": 1255,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/mysticalagriculture/recipes/crops/sapphire.json",
+            "MD5": "20aa3e75188d332650d600b8ee53d290",
+            "path": "kubejs/data/mysticalagriculture/recipes/crops/sapphire.json"
+          }
+        },
+        {
+          "id": "slimesteel.json",
+          "name": "slimesteel.json",
+          "type": "File",
+          "artifact": {
+            "size": 1264,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/mysticalagriculture/recipes/crops/slimesteel.json",
+            "MD5": "4deb8fc6369ec0bfd567c924c71a4224",
+            "path": "kubejs/data/mysticalagriculture/recipes/crops/slimesteel.json"
+          }
+        },
+        {
+          "id": "tinkers_bronze.json",
+          "name": "tinkers_bronze.json",
+          "type": "File",
+          "artifact": {
+            "size": 1284,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/mysticalagriculture/recipes/crops/tinkers_bronze.json",
+            "MD5": "941ba8895b12b46029fe3a9c6f888f7f",
+            "path": "kubejs/data/mysticalagriculture/recipes/crops/tinkers_bronze.json"
+          }
+        },
+        {
+          "id": "ashy_mining_gravel_nest.json",
+          "name": "ashy_mining_gravel_nest.json",
+          "type": "File",
+          "artifact": {
+            "size": 260,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/productivebees/recipes/bee_spawning/ashy_mining_gravel_nest.json",
+            "MD5": "6f3333b569758e7671c8dece856c4fa8",
+            "path": "kubejs/data/productivebees/recipes/bee_spawning/ashy_mining_gravel_nest.json"
+          }
+        },
+        {
+          "id": "ashy_mining_sand_nest.json",
+          "name": "ashy_mining_sand_nest.json",
+          "type": "File",
+          "artifact": {
+            "size": 258,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/productivebees/recipes/bee_spawning/ashy_mining_sand_nest.json",
+            "MD5": "d1626b039847b4bdf2c2ce2064e4870e",
+            "path": "kubejs/data/productivebees/recipes/bee_spawning/ashy_mining_sand_nest.json"
+          }
+        },
+        {
+          "id": "chocolate_mining_gravel_nest.json",
+          "name": "chocolate_mining_gravel_nest.json",
+          "type": "File",
+          "artifact": {
+            "size": 265,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/productivebees/recipes/bee_spawning/chocolate_mining_gravel_nest.json",
+            "MD5": "3ffef007d8b8c629b516531f3f57a8a8",
+            "path": "kubejs/data/productivebees/recipes/bee_spawning/chocolate_mining_gravel_nest.json"
+          }
+        },
+        {
+          "id": "chocolate_mining_sand_nest.json",
+          "name": "chocolate_mining_sand_nest.json",
+          "type": "File",
+          "artifact": {
+            "size": 263,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/productivebees/recipes/bee_spawning/chocolate_mining_sand_nest.json",
+            "MD5": "524b433274d8ebb05a910e1e141c1e46",
+            "path": "kubejs/data/productivebees/recipes/bee_spawning/chocolate_mining_sand_nest.json"
+          }
+        },
+        {
+          "id": "digger_gravel_nest.json",
+          "name": "digger_gravel_nest.json",
+          "type": "File",
+          "artifact": {
+            "size": 255,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/productivebees/recipes/bee_spawning/digger_gravel_nest.json",
+            "MD5": "1598c036301478e0464c0b918834e141",
+            "path": "kubejs/data/productivebees/recipes/bee_spawning/digger_gravel_nest.json"
+          }
+        },
+        {
+          "id": "slimy_slimy_nest.json",
+          "name": "slimy_slimy_nest.json",
+          "type": "File",
+          "artifact": {
+            "size": 249,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/productivebees/recipes/bee_spawning/slimy_slimy_nest.json",
+            "MD5": "c0f2f0ec4d485dc2ca93a77b7ae7e510",
+            "path": "kubejs/data/productivebees/recipes/bee_spawning/slimy_slimy_nest.json"
+          }
+        },
+        {
+          "id": "sweaty_snow_nest.json",
+          "name": "sweaty_snow_nest.json",
+          "type": "File",
+          "artifact": {
+            "size": 253,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/productivebees/recipes/bee_spawning/sweaty_snow_nest.json",
+            "MD5": "af971f1be9908e53099dddb8fac6eb33",
+            "path": "kubejs/data/productivebees/recipes/bee_spawning/sweaty_snow_nest.json"
+          }
+        },
+        {
+          "id": "arcane_gold.json",
+          "name": "arcane_gold.json",
+          "type": "File",
+          "artifact": {
+            "size": 3074,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/silentgear/silentgear_materials/arcane_gold.json",
+            "MD5": "2ff2ec373232ee93be53d5efa3df248a",
+            "path": "kubejs/data/silentgear/silentgear_materials/arcane_gold.json"
+          }
+        },
+        {
+          "id": "gaia_spirit.json",
+          "name": "gaia_spirit.json",
+          "type": "File",
+          "artifact": {
+            "size": 2789,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/silentgear/silentgear_materials/gaia_spirit.json",
+            "MD5": "9e19c3346bfac633ab2ed54ec62557a1",
+            "path": "kubejs/data/silentgear/silentgear_materials/gaia_spirit.json"
+          }
+        },
+        {
+          "id": "imperium.json",
+          "name": "imperium.json",
+          "type": "File",
+          "artifact": {
+            "size": 2854,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/silentgear/silentgear_materials/imperium.json",
+            "MD5": "6a44d3ce770a3c2fc2f6b5bc13f4d54d",
+            "path": "kubejs/data/silentgear/silentgear_materials/imperium.json"
+          }
+        },
+        {
+          "id": "inferium.json",
+          "name": "inferium.json",
+          "type": "File",
+          "artifact": {
+            "size": 2931,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/silentgear/silentgear_materials/inferium.json",
+            "MD5": "bf604a0d1a573103cd22690e43a35d1a",
+            "path": "kubejs/data/silentgear/silentgear_materials/inferium.json"
+          }
+        },
+        {
+          "id": "mana_gem.json",
+          "name": "mana_gem.json",
+          "type": "File",
+          "artifact": {
+            "size": 2614,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/silentgear/silentgear_materials/mana_gem.json",
+            "MD5": "dbdbe0fec36496e4d763cf29924aca2a",
+            "path": "kubejs/data/silentgear/silentgear_materials/mana_gem.json"
+          }
+        },
+        {
+          "id": "neptunium.json",
+          "name": "neptunium.json",
+          "type": "File",
+          "artifact": {
+            "size": 2780,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/silentgear/silentgear_materials/neptunium.json",
+            "MD5": "bfef476ce70020155894669256a408a3",
+            "path": "kubejs/data/silentgear/silentgear_materials/neptunium.json"
+          }
+        },
+        {
+          "id": "pewter.json",
+          "name": "pewter.json",
+          "type": "File",
+          "artifact": {
+            "size": 2914,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/silentgear/silentgear_materials/pewter.json",
+            "MD5": "6dfdcf4cd18d57b8bb33a99f4a05a3aa",
+            "path": "kubejs/data/silentgear/silentgear_materials/pewter.json"
+          }
+        },
+        {
+          "id": "prudentium.json",
+          "name": "prudentium.json",
+          "type": "File",
+          "artifact": {
+            "size": 2933,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/silentgear/silentgear_materials/prudentium.json",
+            "MD5": "93829acc850eb2e2c6f9c540f1337282",
+            "path": "kubejs/data/silentgear/silentgear_materials/prudentium.json"
+          }
+        },
+        {
+          "id": "starmetal.json",
+          "name": "starmetal.json",
+          "type": "File",
+          "artifact": {
+            "size": 2699,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/silentgear/silentgear_materials/starmetal.json",
+            "MD5": "adb9c7d00e751e51ade62ea477cd206c",
+            "path": "kubejs/data/silentgear/silentgear_materials/starmetal.json"
+          }
+        },
+        {
+          "id": "supremium.json",
+          "name": "supremium.json",
+          "type": "File",
+          "artifact": {
+            "size": 3054,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/silentgear/silentgear_materials/supremium.json",
+            "MD5": "129e00379b95075e2e2286deda538d0b",
+            "path": "kubejs/data/silentgear/silentgear_materials/supremium.json"
+          }
+        },
+        {
+          "id": "tertium.json",
+          "name": "tertium.json",
+          "type": "File",
+          "artifact": {
+            "size": 2931,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/silentgear/silentgear_materials/tertium.json",
+            "MD5": "96c7459c4359af9b2b3f9fe1a25fbc49",
+            "path": "kubejs/data/silentgear/silentgear_materials/tertium.json"
+          }
+        },
+        {
+          "id": "imperium.json",
+          "name": "imperium.json",
+          "type": "File",
+          "artifact": {
+            "size": 118,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/materials/definition/imperium.json",
+            "MD5": "abbcb7eeba0ae0a97548f056cb4e82e5",
+            "path": "kubejs/data/tconstruct/materials/definition/imperium.json"
+          }
+        },
+        {
+          "id": "inferium.json",
+          "name": "inferium.json",
+          "type": "File",
+          "artifact": {
+            "size": 118,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/materials/definition/inferium.json",
+            "MD5": "f2176de26674a71d6b8ad9d039ef7b87",
+            "path": "kubejs/data/tconstruct/materials/definition/inferium.json"
+          }
+        },
+        {
+          "id": "prudentium.json",
+          "name": "prudentium.json",
+          "type": "File",
+          "artifact": {
+            "size": 118,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/materials/definition/prudentium.json",
+            "MD5": "2b4bc3bde2f22fc6da0cef88501bc3df",
+            "path": "kubejs/data/tconstruct/materials/definition/prudentium.json"
+          }
+        },
+        {
+          "id": "supremium.json",
+          "name": "supremium.json",
+          "type": "File",
+          "artifact": {
+            "size": 116,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/materials/definition/supremium.json",
+            "MD5": "5a680d5673ee14986944d5dd1086f6da",
+            "path": "kubejs/data/tconstruct/materials/definition/supremium.json"
+          }
+        },
+        {
+          "id": "tertium.json",
+          "name": "tertium.json",
+          "type": "File",
+          "artifact": {
+            "size": 118,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/materials/definition/tertium.json",
+            "MD5": "02fca67de4ac67d009273ddec5a6f0ca",
+            "path": "kubejs/data/tconstruct/materials/definition/tertium.json"
+          }
+        },
+        {
+          "id": "imperium.json",
+          "name": "imperium.json",
+          "type": "File",
+          "artifact": {
+            "size": 363,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/materials/stats/imperium.json",
+            "MD5": "e0721d268b68767c81204f3ef0f38486",
+            "path": "kubejs/data/tconstruct/materials/stats/imperium.json"
+          }
+        },
+        {
+          "id": "inferium.json",
+          "name": "inferium.json",
+          "type": "File",
+          "artifact": {
+            "size": 361,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/materials/stats/inferium.json",
+            "MD5": "777911ed61b695996b8797070412be2f",
+            "path": "kubejs/data/tconstruct/materials/stats/inferium.json"
+          }
+        },
+        {
+          "id": "prudentium.json",
+          "name": "prudentium.json",
+          "type": "File",
+          "artifact": {
+            "size": 362,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/materials/stats/prudentium.json",
+            "MD5": "1a321148629cdef12861a5f51c375cdf",
+            "path": "kubejs/data/tconstruct/materials/stats/prudentium.json"
+          }
+        },
+        {
+          "id": "supremium.json",
+          "name": "supremium.json",
+          "type": "File",
+          "artifact": {
+            "size": 363,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/materials/stats/supremium.json",
+            "MD5": "ad2d086ea91f2224664b563f95770a09",
+            "path": "kubejs/data/tconstruct/materials/stats/supremium.json"
+          }
+        },
+        {
+          "id": "tertium.json",
+          "name": "tertium.json",
+          "type": "File",
+          "artifact": {
+            "size": 362,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/materials/stats/tertium.json",
+            "MD5": "ac4afc54f0c6f7782e3b43a9c57b0d8b",
+            "path": "kubejs/data/tconstruct/materials/stats/tertium.json"
+          }
+        },
+        {
+          "id": "supremium.json",
+          "name": "supremium.json",
+          "type": "File",
+          "artifact": {
+            "size": 187,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/materials/traits/supremium.json",
+            "MD5": "55c2c0fe13a03bd1b384e650512b0821",
+            "path": "kubejs/data/tconstruct/materials/traits/supremium.json"
+          }
+        },
+        {
+          "id": "imperium.json",
+          "name": "imperium.json",
+          "type": "File",
+          "artifact": {
+            "size": 197,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/recipes/tools/materials/imperium.json",
+            "MD5": "0ed4378df8c36effbee882f715197d52",
+            "path": "kubejs/data/tconstruct/recipes/tools/materials/imperium.json"
+          }
+        },
+        {
+          "id": "inferium.json",
+          "name": "inferium.json",
+          "type": "File",
+          "artifact": {
+            "size": 197,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/recipes/tools/materials/inferium.json",
+            "MD5": "d0120dd9bd6eeea37cc84a5cf9df5d99",
+            "path": "kubejs/data/tconstruct/recipes/tools/materials/inferium.json"
+          }
+        },
+        {
+          "id": "prudentium.json",
+          "name": "prudentium.json",
+          "type": "File",
+          "artifact": {
+            "size": 201,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/recipes/tools/materials/prudentium.json",
+            "MD5": "03ac7c80f5eb442cacf997b02e5fdd7b",
+            "path": "kubejs/data/tconstruct/recipes/tools/materials/prudentium.json"
+          }
+        },
+        {
+          "id": "supremium.json",
+          "name": "supremium.json",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/recipes/tools/materials/supremium.json",
+            "MD5": "d159835ac6552df04aa016ab623b56f1",
+            "path": "kubejs/data/tconstruct/recipes/tools/materials/supremium.json"
+          }
+        },
+        {
+          "id": "tertium.json",
+          "name": "tertium.json",
+          "type": "File",
+          "artifact": {
+            "size": 195,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/recipes/tools/materials/tertium.json",
+            "MD5": "bfa2da3fca3f3bbb341f4888f259d9f3",
+            "path": "kubejs/data/tconstruct/recipes/tools/materials/tertium.json"
+          }
+        },
+        {
+          "id": "end_fiber.json",
+          "name": "end_fiber.json",
+          "type": "File",
+          "artifact": {
+            "size": 298,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/recipes/tools/modifiers/slotless/end_fiber.json",
+            "MD5": "cc40975a2afc47ffcf1ed457854184a0",
+            "path": "kubejs/data/tconstruct/recipes/tools/modifiers/slotless/end_fiber.json"
+          }
+        },
+        {
+          "id": "gaia_influenced.json",
+          "name": "gaia_influenced.json",
+          "type": "File",
+          "artifact": {
+            "size": 288,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/recipes/tools/modifiers/slotless/gaia_influenced.json",
+            "MD5": "38b63bc6cac75ee79971d78bde40f9b4",
+            "path": "kubejs/data/tconstruct/recipes/tools/modifiers/slotless/gaia_influenced.json"
+          }
+        },
+        {
+          "id": "irradiant1.json",
+          "name": "irradiant1.json",
+          "type": "File",
+          "artifact": {
+            "size": 310,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/recipes/tools/modifiers/slotless/irradiant1.json",
+            "MD5": "fa18a020fd7d535bea0eacdfcfdc113b",
+            "path": "kubejs/data/tconstruct/recipes/tools/modifiers/slotless/irradiant1.json"
+          }
+        },
+        {
+          "id": "irradiant2.json",
+          "name": "irradiant2.json",
+          "type": "File",
+          "artifact": {
+            "size": 309,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/recipes/tools/modifiers/slotless/irradiant2.json",
+            "MD5": "20eea5ca4d2a41ae5f31abbb90d687a5",
+            "path": "kubejs/data/tconstruct/recipes/tools/modifiers/slotless/irradiant2.json"
+          }
+        },
+        {
+          "id": "irradiant3.json",
+          "name": "irradiant3.json",
+          "type": "File",
+          "artifact": {
+            "size": 311,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/recipes/tools/modifiers/slotless/irradiant3.json",
+            "MD5": "63747ee3611f342b80295f316635056f",
+            "path": "kubejs/data/tconstruct/recipes/tools/modifiers/slotless/irradiant3.json"
+          }
+        },
+        {
+          "id": "irradiant4.json",
+          "name": "irradiant4.json",
+          "type": "File",
+          "artifact": {
+            "size": 310,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/recipes/tools/modifiers/slotless/irradiant4.json",
+            "MD5": "76a0f30b882f0755b2257d9daaad249c",
+            "path": "kubejs/data/tconstruct/recipes/tools/modifiers/slotless/irradiant4.json"
+          }
+        },
+        {
+          "id": "irradiant5.json",
+          "name": "irradiant5.json",
+          "type": "File",
+          "artifact": {
+            "size": 308,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/data/tconstruct/recipes/tools/modifiers/slotless/irradiant5.json",
+            "MD5": "667cd783532c48a6699eb425d79b7d83",
+            "path": "kubejs/data/tconstruct/recipes/tools/modifiers/slotless/irradiant5.json"
+          }
+        },
+        {
+          "id": "arsnouveau.js",
+          "name": "arsnouveau.js",
+          "type": "File",
+          "artifact": {
+            "size": 557,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/server_scripts/arsnouveau.js",
+            "MD5": "361244b4c084f9c7a40cb28fbb92c01f",
+            "path": "kubejs/server_scripts/arsnouveau.js"
+          }
+        },
+        {
+          "id": "astralsorcery.js",
+          "name": "astralsorcery.js",
+          "type": "File",
+          "artifact": {
+            "size": 665,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/server_scripts/astralsorcery.js",
+            "MD5": "7ffa15e6ad385ba3e4fcc8eef9fa1d72",
+            "path": "kubejs/server_scripts/astralsorcery.js"
+          }
+        },
+        {
+          "id": "bees.js",
+          "name": "bees.js",
+          "type": "File",
+          "artifact": {
+            "size": 5764,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/server_scripts/bees.js",
+            "MD5": "e1f79ac7c781c5c7458b3eb8fa47fc0d",
+            "path": "kubejs/server_scripts/bees.js"
+          }
+        },
+        {
+          "id": "botany_pots.js",
+          "name": "botany_pots.js",
+          "type": "File",
+          "artifact": {
+            "size": 969,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/server_scripts/botany_pots.js",
+            "MD5": "8f9f9a78eaf4c5fff429c1a3d3c40f38",
+            "path": "kubejs/server_scripts/botany_pots.js"
+          }
+        },
+        {
+          "id": "ftb_quests.js",
+          "name": "ftb_quests.js",
+          "type": "File",
+          "artifact": {
+            "size": 4021,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/server_scripts/ftb_quests.js",
+            "MD5": "a48a5cf71a6066956679fca5243f1617",
+            "path": "kubejs/server_scripts/ftb_quests.js"
+          }
+        },
+        {
+          "id": "mystical_agriculture.js",
+          "name": "mystical_agriculture.js",
+          "type": "File",
+          "artifact": {
+            "size": 2380,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/server_scripts/mystical_agriculture.js",
+            "MD5": "a415782432aef47f1afd5912f3cb387f",
+            "path": "kubejs/server_scripts/mystical_agriculture.js"
+          }
+        },
+        {
+          "id": "recipes.js",
+          "name": "recipes.js",
+          "type": "File",
+          "artifact": {
+            "size": 13664,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/server_scripts/recipes.js",
+            "MD5": "299d40bf0953c501fa135f710bc53923",
+            "path": "kubejs/server_scripts/recipes.js"
+          }
+        },
+        {
+          "id": "recipes_bees_eggs.js",
+          "name": "recipes_bees_eggs.js",
+          "type": "File",
+          "artifact": {
+            "size": 2222,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/server_scripts/recipes_bees_eggs.js",
+            "MD5": "65e5f444dff88eac378f7ce9f6c6143a",
+            "path": "kubejs/server_scripts/recipes_bees_eggs.js"
+          }
+        },
+        {
+          "id": "script.js",
+          "name": "script.js",
+          "type": "File",
+          "artifact": {
+            "size": 3653,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/server_scripts/script.js",
+            "MD5": "095df22e2372c7cd91e985f715db709b",
+            "path": "kubejs/server_scripts/script.js"
+          }
+        },
+        {
+          "id": "bumblezone_black_list.js",
+          "name": "bumblezone_black_list.js",
+          "type": "File",
+          "artifact": {
+            "size": 1051,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/files/kubejs/startup_scripts/bumblezone_black_list.js",
+            "MD5": "bfc415b133b2de8a6ec8602497933196",
+            "path": "kubejs/startup_scripts/bumblezone_black_list.js"
           }
         }
       ]
@@ -59733,7 +62593,7 @@
               "type": "Library",
               "artifact": {
                 "size": 11352644,
-                "MD5": "2fe6e542b3de367bb4dc25e2643ef6b0",
+                "MD5": "7f8bb82d3d74e6fddf54accd7594ab8f",
                 "url": "http://node2.incamc.com:2665/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
               },
               "subModules": []
