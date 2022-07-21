@@ -1,12 +1,12 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "rss": "https://rss.yassicorp.eu/launcher",
   "servers": [
     {
       "id": "All_In_One-1.16.5",
       "name": "All In One | Fork of YassiCorp (Minecraft 1.16.5)",
       "description": "Un oneblock moddé... Simple... Efficace...",
-      "icon": "https://cdn.discordapp.com/attachments/937796349884248104/999283882031599759/637485703554418199.png?size=4096",
+      "icon": null,
       "version": "1.0.0",
       "address": "45.140.164.184:25645",
       "minecraftVersion": "1.16.5",
@@ -2543,7 +2543,7 @@
       "id": "All_The_Mods_3_Remix-1.12.2",
       "name": "All The Mods 3 Remix | Fork of YassiCorp",
       "description": "All The Mods 3, un modpack préféré de la Corp.",
-      "icon": "https://cdn.discordapp.com/attachments/937796349884248104/998297055053230100/unknown.png?size=4096",
+      "icon": null,
       "version": "1.0.0",
       "address": "45.140.164.184:25489",
       "minecraftVersion": "1.12.2",
@@ -4663,36 +4663,6 @@
             "size": 1109460,
             "url": "http://node2.incamc.com:2665/servers/All_The_Mods_3_Remix-1.12.2/forgemods/required/MagicBees-1.12.2-3.2.25.jar",
             "MD5": "758d57009529c38d85d71a675a87cb45"
-          }
-        },
-        {
-          "id": "net.malisis.blocks:malisisblocks:1.12.2-6.1.0@jar",
-          "name": "Malisis Blocks",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 156557,
-            "url": "http://node2.incamc.com:2665/servers/All_The_Mods_3_Remix-1.12.2/forgemods/required/malisisblocks-1.12.2-6.1.0.jar",
-            "MD5": "d5f2cc7c9859952dddcf9e03a2875041"
-          }
-        },
-        {
-          "id": "net.malisis.doors:malisisdoors:1.12.2-7.3.0@jar",
-          "name": "MalisisDoors",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1741669,
-            "url": "http://node2.incamc.com:2665/servers/All_The_Mods_3_Remix-1.12.2/forgemods/required/malisisdoors-1.12.2-7.3.0.jar",
-            "MD5": "6d0f129ff9a05f84add5b2209a6d0284"
-          }
-        },
-        {
-          "id": "net.malisis.switches:malisisswitches:1.12.2-5.1.0@jar",
-          "name": "Malisis Switches",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 95850,
-            "url": "http://node2.incamc.com:2665/servers/All_The_Mods_3_Remix-1.12.2/forgemods/required/malisisswitches-1.12.2-5.1.0.jar",
-            "MD5": "d031af11c1d0a64f080d9a472f4c14c1"
           }
         },
         {
@@ -24442,17 +24412,6 @@
           }
         },
         {
-          "id": "malisiscore-1.12.2-6.5.1.jar",
-          "name": "malisiscore-1.12.2-6.5.1.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1939783,
-            "url": "http://node2.incamc.com:2665/servers/All_The_Mods_3_Remix-1.12.2/files/mods/malisiscore-1.12.2-6.5.1.jar",
-            "MD5": "ccc183a97d7b9688a49bf29b61343f49",
-            "path": "mods/malisiscore-1.12.2-6.5.1.jar"
-          }
-        },
-        {
           "id": "book.json",
           "name": "book.json",
           "type": "File",
@@ -26119,7 +26078,7 @@
       "id": "RLCraft-1.12.2",
       "name": "RLCraft | Fork of YassiCorp (Minecraft 1.12.2)",
       "description": "RLCraft... t'es serieux ! Bah bonne chance.",
-      "icon": "https://cdn.discordapp.com/attachments/937796349884248104/999288200734457947/637751369169569212.png?size=4096",
+      "icon": null,
       "version": "1.0.0",
       "address": "45.140.164.186:2569",
       "minecraftVersion": "1.12.2",
@@ -59719,7 +59678,7 @@
       "id": "Survie-1.16.5",
       "name": "Survie Vanilla ++ (Minecraft 1.16.5)",
       "description": "Un vanilla Moddé ?! Enfin peut-etre...",
-      "icon": "https://cdn.discordapp.com/attachments/937796349884248104/999300647046357094/logo_survie.png?size=4096",
+      "icon": null,
       "version": "1.0.0",
       "address": "45.140.164.184:25645",
       "minecraftVersion": "1.16.5",
