@@ -1,12 +1,12 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "rss": "https://rss.yassicorp.eu/launcher",
   "servers": [
     {
       "id": "All_In_One-1.16.5",
       "name": "All In One | Fork of YassiCorp (Minecraft 1.16.5)",
       "description": "Un oneblock moddé... Simple... Efficace...",
-      "icon": null,
+      "icon": "https://cdn.discordapp.com/attachments/937796349884248104/999283882031599759/637485703554418199.png?size=4096",
       "version": "1.0.0",
       "address": "45.140.164.184:25645",
       "minecraftVersion": "1.16.5",
@@ -354,6 +354,16 @@
           }
         },
         {
+          "id": "by.bobsans:boblib:0.2.0@jar",
+          "name": "BobLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23026,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/forgemods/required/[1.16.5]%20BobLib-0.2.0.jar",
+            "MD5": "a6b918e4ed8ff8711889200f5e430e32"
+          }
+        },
+        {
           "id": "com.minecraftabnormals.abnormals_core.core:abnormals_core:3.3.1@jar",
           "name": "Abnormals Core",
           "type": "ForgeMod",
@@ -643,6 +653,16 @@
             "size": 11564279,
             "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/forgemods/required/create-mc1.16.5_v0.3.2g.jar",
             "MD5": "84ec13d5bccfa71a09783ecb6e089b20"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.0.0@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 631207,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/forgemods/required/CreativeCore_v2.2.1_mc1.16.5.jar",
+            "MD5": "c32d3e1df267d820eb2b1b8e8adb75e1"
           }
         },
         {
@@ -2523,7 +2543,7 @@
       "id": "All_The_Mods_3_Remix-1.12.2",
       "name": "All The Mods 3 Remix | Fork of YassiCorp",
       "description": "All The Mods 3, un modpack préféré de la Corp.",
-      "icon": null,
+      "icon": "https://cdn.discordapp.com/attachments/937796349884248104/998297055053230100/unknown.png?size=4096",
       "version": "1.0.0",
       "address": "45.140.164.184:25489",
       "minecraftVersion": "1.12.2",
@@ -5777,6 +5797,16 @@
             "size": 285686,
             "url": "http://node2.incamc.com:2665/servers/All_The_Mods_3_Remix-1.12.2/forgemods/required/thaumicperiphery-0.3.1.jar",
             "MD5": "2e05473ff50f901a8a07111699e23eee"
+          }
+        },
+        {
+          "id": "thebetweenlands:thebetweenlands:3.7.2@jar",
+          "name": "The Betweenlands",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 113412714,
+            "url": "http://node2.incamc.com:2665/servers/All_The_Mods_3_Remix-1.12.2/forgemods/required/TheBetweenlands-3.7.2-universal.jar",
+            "MD5": "c72d559f9221817a256324e5b63c3025"
           }
         },
         {
@@ -26068,7 +26098,7 @@
       "id": "RLCraft-1.12.2",
       "name": "RLCraft | Fork of YassiCorp (Minecraft 1.12.2)",
       "description": "RLCraft... t'es serieux ! Bah bonne chance.",
-      "icon": null,
+      "icon": "https://cdn.discordapp.com/attachments/937796349884248104/999288200734457947/637751369169569212.png?size=4096",
       "version": "1.0.0",
       "address": "45.140.164.186:2569",
       "minecraftVersion": "1.12.2",
@@ -59668,7 +59698,7 @@
       "id": "Survie-1.16.5",
       "name": "Survie Vanilla ++ (Minecraft 1.16.5)",
       "description": "Un vanilla Moddé ?! Enfin peut-etre...",
-      "icon": null,
+      "icon": "https://cdn.discordapp.com/attachments/937796349884248104/999300647046357094/logo_survie.png?size=4096",
       "version": "1.0.0",
       "address": "45.140.164.184:25645",
       "minecraftVersion": "1.16.5",
