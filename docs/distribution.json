@@ -1,5 +1,5 @@
 {
-  "version": "1.0.7",
+  "version": "1.0.8",
   "rss": "rss.yassicorp.eu",
   "servers": [
     {
@@ -1346,6 +1346,16 @@
             "size": 62794,
             "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/forgemods/required/randomlib-1.16.x-1.0.0.jar",
             "MD5": "26ce0063d1eb99fa653ddf722ad4368b"
+          }
+        },
+        {
+          "id": "technicianlp.reauth:reauth:4.0.4@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 175590,
+            "url": "http://node2.incamc.com:2665/servers/All_In_One-1.16.5/forgemods/required/ReAuth-1.16-Forge-4.0.4.jar",
+            "MD5": "ebd24779bc6ca595154253c495c0ee02"
           }
         },
         {
@@ -10671,16 +10681,6 @@
             "size": 3831382,
             "url": "http://node2.incamc.com:2665/servers/ModernTech-1.16.5/forgemods/required/Cyclic-1.16.5-1.5.18.jar",
             "MD5": "25a738a24942d6cf6f28e6a2b8db0da9"
-          }
-        },
-        {
-          "id": "net.foxmcloud:draconicadditions:2.2.2.5@jar",
-          "name": "Draconic Additions",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 858323,
-            "url": "http://node2.incamc.com:2665/servers/ModernTech-1.16.5/forgemods/required/Draconic-Additions-1.16.5-2.2.2.5-universal.jar",
-            "MD5": "0bcc91a612c3e59cf05ff7a5508e05fe"
           }
         },
         {
@@ -46719,6 +46719,16 @@
             "size": 142536,
             "url": "http://node2.incamc.com:2665/servers/Survie-1.16.5/forgemods/required/obfuscate-0.6.3-1.16.5.jar",
             "MD5": "514fe4c6c39bc1b7e474d813daab593e"
+          }
+        },
+        {
+          "id": "technicianlp.reauth:reauth:4.0.4@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 175590,
+            "url": "http://node2.incamc.com:2665/servers/Survie-1.16.5/forgemods/required/ReAuth-1.16-Forge-4.0.4.jar",
+            "MD5": "ebd24779bc6ca595154253c495c0ee02"
           }
         },
         {
